@@ -1,0 +1,155 @@
+variable,code,label,sample_households,weighted_households
+DERH_HHSEX,1,Male,524967,7657915.0
+DERH_HHSEX,2,Female,523608,7498853.0
+DERH_HHPOP,1,Black African,790593,11216446.0
+DERH_HHPOP,2,Coloured,99766,1515060.0
+DERH_HHPOP,3,Indian or Asian,33029,500771.0
+DERH_HHPOP,4,White,121543,1869870.0
+DERH_HHPOP,5,Other,3644,54621.0
+H01_QUARTERS,1,Housing Unit,948296,13726826.0
+H01_QUARTERS,2,Converted Hostel,15427,217883.0
+H01_QUARTERS,3,Residential Hotel,2505,37432.0
+H01_QUARTERS,4,Home for the aged,4067,58134.0
+H01_QUARTERS,5,Other,78280,1116494.0
+H02_MAINDWELLING,1,Formal dwelling/house or brick/concrete block structure on a separate stand or yard or on farm,751908,10876365.0
+H02_MAINDWELLING,2,Traditional dwelling/hut/structure made of traditional materials,39270,489390.0
+H02_MAINDWELLING,3,Flat or apartment in a block of flats/flat or apartment in a block of flats in a complex,29064,441263.0
+H02_MAINDWELLING,4,Cluster house in complex,3646,56065.0
+H02_MAINDWELLING,5,Town house (semi-detached house in complex),5047,76895.0
+H02_MAINDWELLING,6,Semi-detached house,11778,179412.0
+H02_MAINDWELLING,7,Formal dwelling/house/flat/room in backyard/servants quarters/granny flat/cottage,37534,552462.0
+H02_MAINDWELLING,8,Informal dwelling/shack in back yard,33773,502493.0
+H02_MAINDWELLING,9,"Informal dwelling/shack not in backyard, e.g. in an informal/squatter settlement or on farm",48543,726053.0
+H02_MAINDWELLING,10,Caravan/tent,201,2946.0
+H02_MAINDWELLING,11,Other,2959,41364.0
+H02_MAINDWELLING,88,Not applicable,84852,1212059.0
+H03_TENURE,1,Rented from private individual,143971,2166108.0
+H03_TENURE,2,Rented from other (including municipality and social housing institutions),32937,492056.0
+H03_TENURE,3,"Owned, but not yet paid off",51654,769882.0
+H03_TENURE,4,Owned and fully paid off,301707,4241171.0
+H03_TENURE,5,Occupied rent-free,183003,2562730.0
+H03_TENURE,6,Other,23513,323618.0
+H03_TENURE,7,Do not know,5912,86381.0
+H03_TENURE,8,Not applicable,84852,1212059.0
+H03_TENURE,9,Unspecified,221026,3302762.0
+H04_RDP,1,Yes,231995,3375609.0
+H04_RDP,2,No,505235,7184498.0
+H04_RDP,3,Do not know,5447,81528.0
+H04_RDP,8,Not applicable,84852,1212059.0
+H04_RDP,9,Unspecified,221046,3303073.0
+H05_WATERPIPED,1,Piped (tap) water inside the dwelling,612721,9205424.0
+H05_WATERPIPED,2,Piped (tap) water inside the yard,234733,3266041.0
+H05_WATERPIPED,3,Piped (tap) water on community stand: distance less than 200m from dwelling,74126,1033907.0
+H05_WATERPIPED,4,Piped (tap) water to community stand: distance less than 200m and 500m from dwelling,19460,264766.0
+H05_WATERPIPED,5,Piped (tap) water to community stand: distance less than 500m and 1000m from dwelling,6412,86540.0
+H05_WATERPIPED,6,Piped (tap) water on community stand: distance greater than 1000m (1 km) from dwelling,4475,60421.0
+H05_WATERPIPED,7,No access to piped (tap) water,96648,1239670.0
+H06_WATERSOURCE,1,Regional/local water scheme (operated by municipality/other service provider),865233,12714059.0
+H06_WATERSOURCE,2,Borehole,36216,513113.0
+H06_WATERSOURCE,3,Spring,7306,95042.0
+H06_WATERSOURCE,4,Rain-water tank,29676,371903.0
+H06_WATERSOURCE,5,Dam/pool/stagnant water,9479,122875.0
+H06_WATERSOURCE,6,Flowing water/river/stream,27095,330662.0
+H06_WATERSOURCE,7,Water vendor,10165,134093.0
+H06_WATERSOURCE,8,Water tanker,42523,582538.0
+H06_WATERSOURCE,9,Other,20882,292483.0
+H07A_WATERSUPPLY,1,Yes,307487,4399880.0
+H07A_WATERSUPPLY,2,No,332177,4943864.0
+H07A_WATERSUPPLY,3,Do not know,5638,83665.0
+H07A_WATERSUPPLY,8,Not applicable,190179,2547236.0
+H07A_WATERSUPPLY,9,Unspecified,213094,3182123.0
+H08_TOILET,1,Flush toilet connected to a public sewerage system,721954,10805520.0
+H08_TOILET,2,Flush toilet connected to a septic tank or conservancy tank,22641,333955.0
+H08_TOILET,3,Chemical toilet,37163,503330.0
+H08_TOILET,4,Pit latrine/toilet with ventilation pipe,102691,1301870.0
+H08_TOILET,5,Pit latrine/toilet without ventilation pipe,99678,1305039.0
+H08_TOILET,6,"Ecological toilet (e.g. urine diversion, enviroloo, etc)",5313,68229.0
+H08_TOILET,7,Bucket toilet (collected by municipality),17612,266216.0
+H08_TOILET,8,Bucket toilet (emptied by household),11722,166920.0
+H08_TOILET,9,None,20278,279674.0
+H08_TOILET,10,Other,9523,126015.0
+H09_ENERGY_COOKING,1,Electricity from mains,703022,10080075.0
+H09_ENERGY_COOKING,2,Other source of electricity (e.g. generator etc.),4897,72474.0
+H09_ENERGY_COOKING,3,Gas,259181,3869372.0
+H09_ENERGY_COOKING,4,Paraffin,39538,589109.0
+H09_ENERGY_COOKING,5,Wood,36366,465301.0
+H09_ENERGY_COOKING,6,Coal,958,13191.0
+H09_ENERGY_COOKING,7,Animal dung,264,3295.0
+H09_ENERGY_COOKING,8,Solar,749,11866.0
+H09_ENERGY_COOKING,9,Other,1261,18635.0
+H09_ENERGY_COOKING,10,None,2339,33451.0
+H10_ENERGY_LIGHTING,1,Electricity from mains,974345,14060898.0
+H10_ENERGY_LIGHTING,2,Other source of electricity (e.g. generator etc.),4686,69432.0
+H10_ENERGY_LIGHTING,3,Gas,2990,43638.0
+H10_ENERGY_LIGHTING,4,Paraffin,14492,216250.0
+H10_ENERGY_LIGHTING,5,Candles,40211,590223.0
+H10_ENERGY_LIGHTING,6,Solar,8202,123072.0
+H10_ENERGY_LIGHTING,7,Other,1708,25373.0
+H10_ENERGY_LIGHTING,8,None,1941,27883.0
+H11_REFUSE,1,Removed by local authority/private company/community members at least once a week,705081,10549664.0
+H11_REFUSE,2,Removed by local authority/private company/community members less often,14357,211093.0
+H11_REFUSE,3,Communal refuse dump,18084,261176.0
+H11_REFUSE,4,Communal container/central collection point,31020,465365.0
+H11_REFUSE,5,Own refuse dump,215756,2784797.0
+H11_REFUSE,6,Dump or leave rubbish anywhere (no rubbish disposal),53850,744721.0
+H11_REFUSE,7,Other,10427,139953.0
+H12_REFRIGERATOR,1,Yes,667041,9560800.0
+H12_REFRIGERATOR,2,No,160519,2293395.0
+H12_REFRIGERATOR,9,Unspecified,221015,3302573.0
+H12_ELECTRIC_GAS_STOVE,1,Yes,715583,10261231.0
+H12_ELECTRIC_GAS_STOVE,2,No,111939,1592366.0
+H12_ELECTRIC_GAS_STOVE,9,Unspecified,221053,3303171.0
+H12_VACUUM_CLEANER,1,Yes,122892,1851342.0
+H12_VACUUM_CLEANER,2,No,704625,10002211.0
+H12_VACUUM_CLEANER,9,Unspecified,221058,3303215.0
+H12_WASHINGM,1,Yes,326509,4814642.0
+H12_WASHINGM,2,No,501020,7039053.0
+H12_WASHINGM,9,Unspecified,221046,3303074.0
+H12_COMPUTER,1,Yes,193852,2897798.0
+H12_COMPUTER,2,No,633626,8955183.0
+H12_COMPUTER,9,Unspecified,221097,3303787.0
+H12_SATELLITE,1,Yes,433542,6243850.0
+H12_SATELLITE,2,No,393910,5608774.0
+H12_SATELLITE,9,Unspecified,221123,3304144.0
+H12_DVD_PLAYER,1,Yes,267355,3851839.0
+H12_DVD_PLAYER,2,No,560113,8001001.0
+H12_DVD_PLAYER,9,Unspecified,221107,3303928.0
+H12_MOTOR_CAR,1,Yes,243795,3598955.0
+H12_MOTOR_CAR,2,No,583690,8254112.0
+H12_MOTOR_CAR,9,Unspecified,221090,3303701.0
+H12_TELEVISION,1,Yes,634680,9116211.0
+H12_TELEVISION,2,No,192800,2736763.0
+H12_TELEVISION,9,Unspecified,221095,3303794.0
+H12_RADIO,1,Yes,407807,5824166.0
+H12_RADIO,2,No,419663,6028695.0
+H12_RADIO,9,Unspecified,221105,3303907.0
+H12_LANDLINE,1,Yes,48450,729968.0
+H12_LANDLINE,2,No,779044,11123196.0
+H12_LANDLINE,9,Unspecified,221081,3303604.0
+H12_CELLPHONE,1,Yes,755790,10833165.0
+H12_CELLPHONE,2,No,71724,1020312.0
+H12_CELLPHONE,9,Unspecified,221061,3303292.0
+H13_INTERNET_ACCESS,1,Home with an internet connection in the dwelling,109441,1672355.0
+H13_INTERNET_ACCESS,2,Use Cellphone or any other mobile device,494491,7049296.0
+H13_INTERNET_ACCESS,3,From place of work,2635,38954.0
+H13_INTERNET_ACCESS,4,From a library/community hall/Thusong centre,4244,59433.0
+H13_INTERNET_ACCESS,5,From school/university/college,740,10764.0
+H13_INTERNET_ACCESS,6,From an internet café,14398,200323.0
+H13_INTERNET_ACCESS,7,Public Wi-Fi?,12471,188887.0
+H13_INTERNET_ACCESS,8,Other,10803,156147.0
+H13_INTERNET_ACCESS,9,No access to internet services,178333,2477912.0
+H13_INTERNET_ACCESS,99,Unspecified,221019,3302697.0
+A4_ADULT_HUNGER,1,Never,616369,8855141.0
+A4_ADULT_HUNGER,2,Seldom,28029,405305.0
+A4_ADULT_HUNGER,3,Sometimes,134654,1900781.0
+A4_ADULT_HUNGER,4,Often,19052,269246.0
+A4_ADULT_HUNGER,5,Always,14867,211269.0
+A4_ADULT_HUNGER,6,Not applicable (no adult in the household),14496,211017.0
+A4_ADULT_HUNGER,9,Unspecified,221108,3304008.0
+A5_CHILD_HUNGER,1,Never,577938,8282877.0
+A5_CHILD_HUNGER,2,Seldom,22287,320584.0
+A5_CHILD_HUNGER,3,Sometimes,109871,1543649.0
+A5_CHILD_HUNGER,4,Often,14597,205781.0
+A5_CHILD_HUNGER,5,Always,11989,169946.0
+A5_CHILD_HUNGER,6,Not applicable (no child in the household),90785,1329923.0
+A5_CHILD_HUNGER,9,Unspecified,221108,3304008.0

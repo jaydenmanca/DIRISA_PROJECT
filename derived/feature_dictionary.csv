@@ -1,0 +1,31 @@
+feature,source,known_before_election,missing_pct
+vd_turnout_lag1,"IEC results, earlier elections (Stage 2)",yes,13.4
+vd_turnout_lag2,"IEC results, earlier elections (Stage 2)",yes,40.9
+vd_turnout_change_lag,"IEC results, earlier elections (Stage 2)",yes,40.9
+vd_registered_lag1_log,"IEC results, earlier elections (Stage 2)",yes,13.4
+vd_spoilt_pct_lag1,"IEC results, earlier elections (Stage 2)",yes,13.4
+muni_turnout_lag1,"IEC results, earlier elections (Stage 2)",yes,0.0
+muni_turnout_lag2,"IEC results, earlier elections (Stage 2)",yes,19.8
+province_turnout_lag1,"IEC results, earlier elections (Stage 2)",yes,0.0
+muni_roll_growth_pct,IEC voters roll (Stage 2; 2026: IEC dashboard),yes,0.0
+years_since_previous,"IEC results, earlier elections (Stage 2)",yes,0.0
+muni_audit_score_last,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),44.4
+muni_audit_score_3yr,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),44.4
+muni_npe_turnout_last,"IEC provincial-election turnout reports (Stage 2, cell 2.8)",yes,3.0
+muni_npe_years_before,"IEC provincial-election turnout reports (Stage 2, cell 2.8)",yes,3.0
+c22_internet_any_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_internet_at_home_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_computer_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_motor_car_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_piped_water_in_yard_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_electricity_lighting_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_flush_toilet_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_refuse_weekly_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_informal_dwelling_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_rdp_house_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_adult_hunger_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_female_headed_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_urban_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_traditional_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_farms_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_mean_household_size,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0

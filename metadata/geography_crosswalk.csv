@@ -1,0 +1,20 @@
+source_id,source_municipality_name,source_municipality_code,canonical_municipality_name,canonical_municipality_code,province,boundary_version,match_status,match_method,review_required,notes
+voters_2026_report,MP301 - Chief Albert Luthuli,MP301,Chief Albert Luthuli,MP301,Mpumalanga,unknown,provisional,reported-code,yes,Confirm against IEC boundary version
+voters_2026_report,MP302 - Msukalinga,MP302,Msukaligwa,MP302,Mpumalanga,unknown,provisional,reported-code-plus-name-normalisation,yes,Source spelling appears inconsistent; confirm official name
+voters_2026_report,MP303 - Mkhondo,MP303,Mkhondo,MP303,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP304 - Dr Pixley Ka Isaka Seme,MP304,Dr Pixley Ka Isaka Seme,MP304,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP305 - Lekwa,MP305,Lekwa,MP305,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP306 - Dipaleseng,MP306,Dipaleseng,MP306,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP307 - Govan Mbeki,MP307,Govan Mbeki,MP307,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP311 - Victor Khanye,MP311,Victor Khanye,MP311,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP312 - Emalahleni,MP312,eMalahleni,MP312,Mpumalanga,unknown,provisional,reported-code-plus-name-normalisation,yes,Source uses Emalahleni; baseline may use eMalahleni or alternate spelling
+voters_2026_report,MP313 - Steve Tshwete,MP313,Steve Tshwete,MP313,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP314 - Emlahleni,MP314,Emakhazeni,MP314,Mpumalanga,LGE2021 / MDB2026,confirmed,reported-code + name check,no,"Workbook label ""Emlahleni"" is a typo; MP314 = Emakhazeni in the MDB 2026 code list, IEC Atlas VAP file (2011, 2016) and 2021 IEC results"
+voters_2026_report,MP315 - Thembisile Hani,MP315,Thembisile Hani,MP315,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP316 - Dr JS Moroka,MP316,Dr JS Moroka,MP316,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP321 - Thaba chweu,MP321,Thaba Chweu,MP321,Mpumalanga,unknown,provisional,reported-code-plus-name-normalisation,yes,Confirm official spelling and boundary version
+voters_2026_report,MP324 - Nkomazi,MP324,Nkomazi,MP324,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP325 - Bushbuckridge,MP325,Bushbuckridge,MP325,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+voters_2026_report,MP326 - City of Mbombela,MP326,City of Mbombela,MP326,Mpumalanga,unknown,provisional,reported-code,yes,Confirm official spelling and boundary version
+census_2022_f18_f19,MP municipality records,not yet extracted,not yet assigned,not yet assigned,Mpumalanga,2022 boundary version unknown,pending,requires codebook and observed-value profiling,yes,Do not assume Census Municipality strings/codes equal IEC MP codes
+baseline_lge_master,baseline municipality records,see municipality_code,not yet assigned,not yet assigned,Mpumalanga and all provinces,year-specific/unknown,pending,requires extraction of distinct MP code/name pairs,yes,Baseline spans all provinces and historical elections; crosswalk must be year-aware

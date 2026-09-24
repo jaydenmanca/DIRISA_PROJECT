@@ -1,0 +1,20 @@
+# Python / Jupyter
+.venv/
+.venv_old/
+__pycache__/
+.ipynb_checkpoints/
+
+# Node tooling used for earlier document drafts
+node_modules/
+
+# Raw data over GitHub's 100 MB file limit (see README: "Data not in this repository")
+LGE_All_Sources_Master_721327_Rows.csv
+DIRISA_Election_Challenge.zip
+DATASETS/Census2022_F18_F19_Combined_full.csv
+DATASETS/Census2022_raw/
+
+# Superseded and truncated files, kept locally for audit only
+_superseded/
+
+# Office lock files
+~$*

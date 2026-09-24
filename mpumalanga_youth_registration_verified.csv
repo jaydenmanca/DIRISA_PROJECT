@@ -1,0 +1,11 @@
+﻿year_or_snapshot,geography_level,province_or_country,municipality,age_group,male_registered,female_registered,total_registered,source_name,source_url,status
+Current,National,South Africa,,18-19,179564,228271,407835,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,20-29,1841816,2290815,4132631,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,30-39,3021216,3555312,6576528,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,40-49,2915881,3242501,6158382,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,50-59,2162396,2565316,4727712,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,60-69,1379491,1895027,3274518,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,70-79,627866,1009142,1637008,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,National,South Africa,,80+,217665,522592,740257,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+Current,Province,Mpumalanga,,Overall,,,2009381,IEC current voter registration statistics,https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics,Verified
+2021,Province,Mpumalanga,,Overall,858731,1044508,1903239,IEC 2021 Municipal Elections Observer Handbook,https://www.elections.org.za/content/Documents/Publications/2021-Municipal-Elections/2021-Municipal-Elections-Observer-Handbook-%28PDF%29/,Verified; columns male/female

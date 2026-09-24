@@ -1,0 +1,8 @@
+* text=auto
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.xls binary
+*.png binary
+*.parquet binary
+*.zip binary
