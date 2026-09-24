@@ -86,6 +86,7 @@ python -m venv .venv                                  # Python 3.11-3.13
 Open `model.ipynb` in VS Code (or Jupyter), select the `.venv` kernel, then **Restart** and **Run All**.
 
 - **No manual data download is needed.** Cell 1.3 unpacks the four large inputs from `DATASETS/compressed/` on the first run (about 1-2 minutes, once).
+- **Disk space:** allow about **3 GB free** (clone about 0.2 GB, Python environment about 0.6 GB, unpacked data about 1.3 GB, plus outputs). Cell 1.3 checks the free space and stops with a clear message if there isn't enough.
 - Cell 1.1 checks that the required packages are installed and tells you exactly what to install if not.
 - The whole notebook takes about 5-6 minutes. Cell 1.6 loads a 487 MB file (about 1.5 minutes): let it finish.
 - Every derived table, figure and the trained model are written to `derived/`.
