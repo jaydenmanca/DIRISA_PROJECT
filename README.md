@@ -67,7 +67,7 @@ derived/                     outputs rebuilt by the notebook (panels, features, 
 | IEC detailed LGE results 2011, 2016, 2021 (Mpumalanga), [results.elections.org.za](https://results.elections.org.za/home/downloads/me-results) | Turnout history per voting district | Yes |
 | Team baseline `LGE_All_Sources_Master_721327_Rows.csv` (IEC results 2000-2021) | 2000 and 2006 results; cross-check of 2011-2021 | **No** (464 MB) |
 | IEC official Mpumalanga turnout reports 2011/2016/2021 (from the challenge zip) | Reconciliation | Yes |
-| IEC provincial-election turnout per municipality 2004, 2009, 2014, 2024 | Recent turnout signal (feature) | Yes |
+| IEC provincial-election turnout per municipality 2004, 2009, 2014, 2019, 2024 | Recent turnout signal (feature) | Yes |
 | IEC voter registration dashboard, [elections.org.za](https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics), as of 23 Sep 2026 | 2026 registration by municipality, age, gender | Yes |
 | Stats SA Census 2022 10% sample (F18 geography, F19 households, F21 persons), [ISIbalo](https://isibaloweb.statssa.gov.za/pages/surveys/pss/censuses/2022/census2022.php) | Living conditions; eligible adult citizens | **No** (over 100 MB) |
 | Auditor-General audit outcomes via National Treasury [Municipal Money](https://municipaldata.treasury.gov.za) API (`audit_opinions`, downloaded 24 Sep 2026) | Municipal performance score | Yes |
@@ -91,7 +91,7 @@ python -m venv .venv                      # Python 3.13
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Open `model.ipynb` in VS Code, select the kernel **`.venv\Scripts\python.exe`** (cell 1.1 stops with a clear message if the wrong Python is selected), then **Run All**. The whole notebook takes about 3-4 minutes. Every derived table and figure is written to `derived/`.
+Open `model.ipynb` in VS Code. The included `.vscode/settings.json` points VS Code at `.venv`; if the kernel shown is not `.venv\Scripts\python.exe`, choose it under *Select Another Kernel → Python Environments* (cell 1.1 stops with instructions if the wrong Python is selected). Then **Restart** and **Run All**. The whole notebook takes about 3-4 minutes. Cell 1.5 loads a 487 MB file and takes about 1.5 minutes: let it finish. Every derived table and figure is written to `derived/`.
 
 ## Findings so far (Stages 1-4)
 
@@ -107,7 +107,6 @@ Open `model.ipynb` in VS Code, select the kernel **`.venv\Scripts\python.exe`** 
 - About 16.5% of Census households left the household-goods, internet and hunger questions unanswered (6-35% by municipality). Rates use answering households only, with the answer rate shown.
 - Online-registration and age-level turnout figures exist only nationally or provincially, so they are used as context, not as model inputs. There is no municipal youth registration history before 2026.
 - Census 2022 is a later snapshot when used as context for the 2006-2021 elections.
-- The 2019 provincial election is not yet in `DATASETS/voter_turnout/`, so the 2021 forecast features use 2014.
 - One 2000 record (Mdala Nature Reserve) has spoilt votes recorded as NULL at source (set to 0). MP325's 2021 official turnout report differs slightly from the detailed results file.
 
 ## Submission
