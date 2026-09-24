@@ -12,7 +12,7 @@ Turnout in Mpumalanga's local government elections fell from **56.4% in 2016 to 
 
 | Part | Method | Answers |
 |---|---|---|
-| A | Turnout forecast (machine learning, backtested on 2016 and 2021 against "same as last election") | Which areas are most at risk of low turnout in 2026 |
+| A | Two-step turnout forecast: province-wide level (from provincial-election turnout) + each voting district's local position (machine learning), backtested on 2011, 2016 and 2021 | Which areas are most at risk of low turnout in 2026 |
 | B | Registration gap vs turnout gap (calculated) | Is the problem registration, or voting? |
 | C | Socio-economic factors (rank correlations; model feature importance) | Which living conditions, education levels and audit records go with low participation |
 | D | Participation profiles and a transparent priority list | Where youth, low turnout and weak municipal performance overlap |
@@ -24,8 +24,8 @@ Turnout in Mpumalanga's local government elections fell from **56.4% in 2016 to 
 | 1 | Environment, metadata, source checks, raw ingestion | Done |
 | 2 | Mpumalanga election panel 2000-2021 (voting district x election x ballot), 2021 boundaries, reconciliation with IEC; provincial-election turnout 2004-2024 | Done |
 | 3 | Census 2022 living conditions, education and age structure, registration rates, Auditor-General audit outcomes | Done |
-| 4 | Exploratory analysis (6 figures) and feature engineering (leakage-checked features) | Done |
-| 5 | Models: turnout forecast (A), registration vs turnout gap (B), socio-economic factors (C), profiles and priority list (D); limitations and references | Done |
+| 4 | Exploratory analysis (6 figures) and feature engineering (leakage-checked features, incl. relative position and party competition) | Done |
+| 5 | Models: two-step turnout forecast (A), registration vs turnout gap (B), socio-economic factors (C), profiles and priority list (D); limitations and references | Done |
 | 6 | Dashboard (Streamlit) | Next |
 
 ## Team decisions
@@ -94,10 +94,17 @@ Open `model.ipynb` in VS Code (or Jupyter), select the `.venv` kernel, then **Re
 ## Findings
 
 **Model results (Stage 5)**
-- **Part A, turnout forecast:** gradient boosting beat the "same as last election" rule in the backtests (average municipal error 6.7 vs 7.8 percentage points; 1.6 points when predicting 2016). Every method predicted 2021 too high, because the 2021 collapse could not be foreseen from earlier elections. The model relies mostly on turnout history. **Mpumalanga 2026 forecast: 46.2%** (2021: 42.8%). Backtests suggest actual turnout tends to land at or below the forecast (80% range: -14.6 to +0.5 points).
+- **Part A, turnout forecast (two steps).** Turnout = province-wide level + local position.
+  - *Why two steps:* the first version predicted turnout directly and missed 2021 by 11.7 points, because turnout fell across the whole province (56.4% to 42.8%). No local data can foresee that; *where* turnout is lowest changes much less.
+  - *Local position* (each voting district above or below the province): an ensemble of gradient boosting and regression to the mean, using district turnout history and party competition. Across three backtests (2011, 2016, 2021) it is off by **1.5-2.5 points per municipality** and ranks the 1,800 voting districts at rho 0.69 (simple rule: 0.55). Adding Census 2022, audit and provincial-election context did **not** improve it (5.43 vs 5.39 points per district).
+  - *Province-wide level:* 2024 provincial-election turnout x the usual ratio of local to provincial turnout. It beat "same as last election" (average error 6.6 vs 7.8 points) but is the uncertain part: it missed 2011 and 2016 by 9-10 points.
+  - *Overall:* average municipal error 6.7 points (first version 7.2, "same as last election" 7.7); in 2021, 2.4 points instead of 11.7.
+  - **Mpumalanga 2026 forecast: 39.4%** (range 33.8-44.2%; 2021: 42.8%). 2024 provincial turnout fell to 57.1%, and local turnout has always been 59-78% of the preceding provincial turnout.
+  - **357 at-risk voting districts** (lowest fifth of predicted local position), with about 448,000 registered voters; most voters in them are in Emalahleni, City of Mbombela, Bushbuckridge and Govan Mbeki.
+  - **The registration surge:** the roll grew by 267,000 (1.90 million to 2.17 million), but the forecast implies only about 39,000 more ballots than 2021 (range: 83,000 fewer to 143,000 more).
 - **Part B, registration vs turnout gap:** in 11 of 17 municipalities more eligible citizens are lost to *not being registered* than to *registered but not voting* (2021).
-- **Part C, socio-economic factors** (17 municipalities, association not cause): municipalities with a younger adult population have lower registration (rho -0.78). Internet, computer and car ownership go with higher registration (+0.64 to +0.66). Adult hunger goes with a lower share of eligible citizens voting (-0.55).
-- **Part D, priority list:** top 5 are MP312 Emalahleni, MP307 Govan Mbeki, MP313 Steve Tshwete, MP302 Msukaligwa and MP326 City of Mbombela. The ranking is stable under other weightings (rank correlation 0.80-0.95).
+- **Part C, socio-economic factors** (17 municipalities, association not cause): municipalities with a younger adult population have lower registration (rho -0.78). Internet, computer and car ownership go with higher registration (+0.64 to +0.66). Adult hunger goes with a lower share of eligible citizens voting (-0.55). These factors describe *where* participation is low but add nothing to the forecast once turnout history is known.
+- **Part D, priority list:** top 5 are MP307 Govan Mbeki, MP316 Dr JS Moroka, MP312 Emalahleni, MP302 Msukaligwa and MP315 Thembisile Hani. The ranking is stable under other weightings (rank correlation 0.81-0.93).
 
 **Data findings (Stages 1-4)**
 
@@ -114,7 +121,8 @@ Open `model.ipynb` in VS Code (or Jupyter), select the `.venv` kernel, then **Re
 - Online-registration and age-level turnout figures exist only nationally or provincially, so they are used as context, not as model inputs. There is no municipal youth registration history before 2026.
 - Census 2022 is a later snapshot when used as context for the 2006-2021 elections.
 - The Census 10% sample identifies municipalities only, so socio-economic factors vary across 17 places; employment and income were withheld by Stats SA.
-- Only two backtests are possible, and one of them is the 2021 collapse, so the forecast's error range is a rough guide.
+- Only three backtests (2011, 2016, 2021) and four past local/provincial turnout ratios exist. The local picture is well tested; the province-wide level is not, so it is shown as a range of scenarios.
+- Party competition comes from the previous local election's PR ballot; 2024 national results by voting district were not available, so the 2024 shift in party support is not in the local model.
 - Ward councillor, party registration and by-election data were not downloadable from the IEC during the project.
 - One 2000 record (Mdala Nature Reserve) has spoilt votes recorded as NULL at source (set to 0). MP325's 2021 official turnout report differs slightly from the detailed results file.
 

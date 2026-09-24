@@ -1,79 +1,123 @@
 {
-  "chosen_model": "Gradient boosting",
-  "features": [
-    "vd_turnout_lag1",
-    "vd_turnout_lag2",
-    "vd_turnout_change_lag",
+  "approach": "two-step: province-wide level + local position",
+  "province_method": "Provincial-election ratio",
+  "local_model": "Ensemble",
+  "local_features": [
+    "vd_rel_lag1",
+    "vd_rel_lag2",
+    "vd_rel_change_lag",
+    "muni_rel_lag1",
+    "muni_rel_lag2",
     "vd_registered_lag1_log",
     "vd_spoilt_pct_lag1",
-    "muni_turnout_lag1",
-    "muni_turnout_lag2",
-    "province_turnout_lag1",
-    "muni_roll_growth_pct",
-    "years_since_previous",
-    "muni_audit_score_last",
-    "muni_audit_score_3yr",
-    "muni_npe_turnout_last",
-    "muni_npe_change_pp",
-    "c22_internet_any_pct",
-    "c22_internet_at_home_pct",
-    "c22_computer_pct",
-    "c22_motor_car_pct",
-    "c22_piped_water_in_yard_pct",
-    "c22_electricity_lighting_pct",
-    "c22_flush_toilet_pct",
-    "c22_refuse_weekly_pct",
-    "c22_informal_dwelling_pct",
-    "c22_rdp_house_pct",
-    "c22_adult_hunger_pct",
-    "c22_female_headed_pct",
-    "c22_urban_pct",
-    "c22_traditional_pct",
-    "c22_farms_pct",
-    "c22_mean_household_size",
-    "c22_matric_or_higher_pct",
-    "c22_higher_education_pct",
-    "c22_no_schooling_pct",
-    "c22_youth_matric_or_higher_pct",
-    "c22_youth_share_of_adults_pct"
+    "vd_enp_lag1",
+    "vd_winner_share_lag1",
+    "vd_margin_lag1",
+    "vd_anc_share_lag1",
+    "vd_anc_change_lag"
   ],
+  "shrink_factor": 0.4458,
   "trained_on_target_years": [
     2006,
     2011,
     2016,
     2021
   ],
-  "backtest_average": [
+  "backtest_turnout_average": [
     {
-      "model": "Same as last election",
-      "muni_MAE_pp": 7.787,
-      "muni_bias_pp": 7.466,
-      "muni_rank_rho": 0.538,
+      "approach": "Same as last election",
+      "muni_MAE_pp": 7.67,
+      "muni_bias_pp": 2.498,
+      "muni_rank_rho": 0.621,
       "lowest5_found": 3.0,
-      "vd_MAE_pp": 10.488
+      "vd_MAE_pp": 10.584,
+      "bottom20_found_pct": 59.953
+    },
+    {
+      "approach": "One-step model (first version)",
+      "muni_MAE_pp": 7.238,
+      "muni_bias_pp": 1.321,
+      "muni_rank_rho": 0.593,
+      "lowest5_found": 3.0,
+      "vd_MAE_pp": 9.353,
+      "bottom20_found_pct": 57.32
+    },
+    {
+      "approach": "Two-step forecast",
+      "muni_MAE_pp": 6.714,
+      "muni_bias_pp": -5.88,
+      "muni_rank_rho": 0.63,
+      "lowest5_found": 3.0,
+      "vd_MAE_pp": 8.246,
+      "bottom20_found_pct": 60.356
+    }
+  ],
+  "backtest_local_average": [
+    {
+      "model": "Same position as last election",
+      "vd_MAE_pp": 6.982,
+      "vd_rank_rho": 0.555,
+      "bottom20_found_pct": 59.953,
+      "muni_MAE_pp": 2.76,
+      "muni_rank_rho": 0.621,
+      "lowest5_found": 3.0
+    },
+    {
+      "model": "Regression to the mean",
+      "vd_MAE_pp": 5.828,
+      "vd_rank_rho": 0.555,
+      "bottom20_found_pct": 59.953,
+      "muni_MAE_pp": 1.895,
+      "muni_rank_rho": 0.621,
+      "lowest5_found": 3.0
     },
     {
       "model": "Ridge regression",
-      "muni_MAE_pp": 9.16,
-      "muni_bias_pp": 0.032,
-      "muni_rank_rho": 0.473,
-      "lowest5_found": 3.0,
-      "vd_MAE_pp": 10.359
+      "vd_MAE_pp": 5.429,
+      "vd_rank_rho": 0.683,
+      "bottom20_found_pct": 55.182,
+      "muni_MAE_pp": 1.972,
+      "muni_rank_rho": 0.641,
+      "lowest5_found": 2.667
     },
     {
       "model": "Gradient boosting",
-      "muni_MAE_pp": 6.661,
-      "muni_bias_pp": 6.199,
-      "muni_rank_rho": 0.507,
-      "lowest5_found": 3.0,
-      "vd_MAE_pp": 9.319
+      "vd_MAE_pp": 5.392,
+      "vd_rank_rho": 0.692,
+      "bottom20_found_pct": 58.64,
+      "muni_MAE_pp": 2.152,
+      "muni_rank_rho": 0.614,
+      "lowest5_found": 2.667
+    },
+    {
+      "model": "Gradient boosting + municipal context",
+      "vd_MAE_pp": 5.426,
+      "vd_rank_rho": 0.701,
+      "bottom20_found_pct": 57.774,
+      "muni_MAE_pp": 2.29,
+      "muni_rank_rho": 0.633,
+      "lowest5_found": 2.667
+    },
+    {
+      "model": "Ensemble",
+      "vd_MAE_pp": 5.293,
+      "vd_rank_rho": 0.689,
+      "bottom20_found_pct": 60.356,
+      "muni_MAE_pp": 1.863,
+      "muni_rank_rho": 0.63,
+      "lowest5_found": 3.0
     }
   ],
-  "interval_80_error_pp": [
-    -0.549,
-    14.645
+  "local_interval_80_error_pp": [
+    -2.747,
+    2.994
   ],
-  "mpumalanga_turnout_2026_forecast_pct": 46.18,
+  "province_2026_pct": {
+    "central": 39.47,
+    "low": 33.85,
+    "high": 44.23
+  },
+  "mpumalanga_turnout_2026_forecast_pct": 39.36,
   "priority_weights": {
     "low_turnout_forecast": 0.35,
     "youth_gap": 0.25,
@@ -81,5 +125,5 @@
     "weak_audit": 0.2
   },
   "profiles_k": 2,
-  "created": "2026-09-24T19:16:04+00:00"
+  "created": "2026-09-24T20:54:03+00:00"
 }
