@@ -1,18 +1,18 @@
 municipality_code_2021,low_turnout_forecast,youth_gap,low_registration,weak_audit,priority_score,value_low_turnout_forecast,value_youth_gap,value_low_registration,value_weak_audit,municipality_name_2021,profile,rank
-MP307,28.462,21.359,8.507,12.0,70.328,38.443,33.825,66.277,2.0,MP307 - Govan Mbeki,Profile 2: high urban / high registration,1
-MP316,25.676,16.09,12.897,12.0,66.663,38.831,29.078,57.311,2.0,MP316 - Dr JS Moroka,Profile 1: low urban / low registration,2
-MP312,35.0,13.447,7.281,8.0,63.728,37.531,26.697,68.779,2.333,MP312 - Emalahleni,Profile 2: high urban / high registration,3
-MP302,27.61,7.23,15.671,12.0,62.51,38.561,21.096,51.648,2.0,MP302 - Msukaligwa,Profile 1: low urban / low registration,4
-MP315,30.667,16.364,14.801,0.0,61.832,38.135,29.325,53.424,3.0,MP315 - Thembisile Hani,Profile 1: low urban / low registration,5
-MP305,10.933,15.72,10.783,20.0,57.436,40.886,28.745,61.628,1.333,MP305 - Lekwa,Profile 2: high urban / high registration,6
-MP313,17.094,17.622,8.624,8.0,51.34,40.027,30.458,66.037,2.333,MP313 - Steve Tshwete,Profile 2: high urban / high registration,7
-MP301,18.06,7.835,12.054,12.0,49.95,39.892,21.642,59.032,2.0,MP301 - Chief Albert Luthuli,Profile 1: low urban / low registration,8
-MP306,12.306,25.0,0.0,12.0,49.306,40.694,37.105,83.648,2.0,MP306 - Dipaleseng,Profile 2: high urban / high registration,9
-MP325,24.62,6.587,13.624,0.0,44.831,38.978,20.518,55.827,3.0,MP325 - Bushbuckridge,Profile 1: low urban / low registration,10
-MP321,25.332,7.507,4.825,6.0,43.664,38.879,21.347,73.795,2.5,MP321 - Thaba Chweu,Profile 2: high urban / high registration,11
-MP303,13.926,9.691,20.0,0.0,43.616,40.468,23.313,42.807,3.0,MP303 - Mkhondo,Profile 1: low urban / low registration,12
-MP326,19.745,8.239,10.928,0.0,38.912,39.657,22.005,61.332,3.0,MP326 - City of Mbombela,Profile 1: low urban / low registration,13
-MP311,5.764,6.054,14.844,12.0,38.663,41.606,20.038,53.335,2.0,MP311 - Victor Khanye,Profile 2: high urban / high registration,14
-MP314,0.0,12.132,4.329,20.0,36.461,42.409,25.513,74.808,1.333,MP314 - Emakhazeni,Profile 2: high urban / high registration,15
-MP304,15.836,0.0,15.807,0.0,31.644,40.202,14.584,51.368,3.0,MP304 - Dr Pixley Ka Isaka Seme,Profile 1: low urban / low registration,16
-MP324,9.124,1.622,16.084,0.0,26.829,41.138,16.044,50.804,3.0,MP324 - Nkomazi,Profile 1: low urban / low registration,17
+MP307,28.917,21.359,8.507,12.0,70.782,38.449,33.825,66.277,2.0,MP307 - Govan Mbeki,Profile 2: high urban / high registration,1
+MP302,30.255,7.23,15.671,12.0,65.155,38.24,21.096,51.648,2.0,MP302 - Msukaligwa,Profile 1: low urban / low registration,2
+MP312,35.0,13.447,7.281,8.0,63.728,37.496,26.697,68.779,2.333,MP312 - Emalahleni,Profile 2: high urban / high registration,3
+MP316,21.177,16.09,12.897,12.0,62.164,39.662,29.078,57.311,2.0,MP316 - Dr JS Moroka,Profile 1: low urban / low registration,4
+MP315,30.273,16.364,14.801,0.0,61.438,38.237,29.325,53.424,3.0,MP315 - Thembisile Hani,Profile 1: low urban / low registration,5
+MP305,11.069,15.72,10.783,20.0,57.573,41.245,28.745,61.628,1.333,MP305 - Lekwa,Profile 2: high urban / high registration,6
+MP313,19.585,17.622,8.624,8.0,53.831,39.911,30.458,66.037,2.333,MP313 - Steve Tshwete,Profile 2: high urban / high registration,7
+MP301,18.696,7.835,12.054,12.0,50.586,40.05,21.642,59.032,2.0,MP301 - Chief Albert Luthuli,Profile 1: low urban / low registration,8
+MP303,17.758,9.691,20.0,0.0,47.448,40.197,23.313,42.807,3.0,MP303 - Mkhondo,Profile 1: low urban / low registration,9
+MP306,9.398,25.0,0.0,12.0,46.398,41.507,37.105,83.648,2.0,MP306 - Dipaleseng,Profile 2: high urban / high registration,10
+MP321,24.19,7.507,4.825,6.0,42.522,39.19,21.347,73.795,2.5,MP321 - Thaba Chweu,Profile 2: high urban / high registration,11
+MP325,20.481,6.587,13.624,0.0,40.693,39.771,20.518,55.827,3.0,MP325 - Bushbuckridge,Profile 1: low urban / low registration,12
+MP314,2.931,12.132,4.329,20.0,39.391,42.52,25.513,74.808,1.333,MP314 - Emakhazeni,Profile 2: high urban / high registration,13
+MP326,20.087,8.239,10.928,0.0,39.254,39.832,22.005,61.332,3.0,MP326 - City of Mbombela,Profile 1: low urban / low registration,14
+MP311,0.0,6.054,14.844,12.0,32.898,42.979,20.038,53.335,2.0,MP311 - Victor Khanye,Profile 2: high urban / high registration,15
+MP304,14.221,0.0,15.807,0.0,30.028,40.751,14.584,51.368,3.0,MP304 - Dr Pixley Ka Isaka Seme,Profile 1: low urban / low registration,16
+MP324,8.882,1.622,16.084,0.0,26.588,41.588,16.044,50.804,3.0,MP324 - Nkomazi,Profile 1: low urban / low registration,17

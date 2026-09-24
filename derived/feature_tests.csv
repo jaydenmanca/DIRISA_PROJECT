@@ -1,0 +1,6 @@
+features,vd_MAE_pp,vd_rank_rho,bottom20_found_pct,muni_MAE_pp,muni_bias_pp,muni_rank_rho,lowest5_found
+Current features,5.2933,0.6891,60.3563,1.8626,-0.1038,0.6299,3.0
++ Swing sensitivity,5.2896,0.6895,60.8232,1.8581,-0.1523,0.6373,3.0
++ Station venue,5.2932,0.6894,60.5431,1.8547,-0.1071,0.6291,3.0
++ Registration surge,5.2809,0.6908,60.0368,1.8424,-0.2259,0.6332,3.0
++ all three,5.268,0.6926,60.2129,1.8185,-0.242,0.6348,3.0

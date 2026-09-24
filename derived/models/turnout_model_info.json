@@ -14,9 +14,29 @@
     "vd_winner_share_lag1",
     "vd_margin_lag1",
     "vd_anc_share_lag1",
-    "vd_anc_change_lag"
+    "vd_anc_change_lag",
+    "vd_beta",
+    "vd_rel_volatility",
+    "vd_beta_x_expected_swing",
+    "vd_venue_tent",
+    "vd_venue_farm",
+    "vd_venue_traditional",
+    "vd_venue_church",
+    "vd_venue_school",
+    "vd_venue_hall",
+    "muni_roll_growth_rel"
+  ],
+  "kept_feature_groups": [
+    "Swing sensitivity",
+    "Station venue",
+    "Registration surge"
   ],
   "shrink_factor": 0.4458,
+  "registration_surge_effect_per_10pp": [
+    0.415,
+    0.208,
+    0.626
+  ],
   "trained_on_target_years": [
     2006,
     2011,
@@ -44,12 +64,12 @@
     },
     {
       "approach": "Two-step forecast",
-      "muni_MAE_pp": 6.714,
-      "muni_bias_pp": -5.88,
-      "muni_rank_rho": 0.63,
+      "muni_MAE_pp": 6.766,
+      "muni_bias_pp": -6.018,
+      "muni_rank_rho": 0.635,
       "lowest5_found": 3.0,
-      "vd_MAE_pp": 8.246,
-      "bottom20_found_pct": 60.356
+      "vd_MAE_pp": 8.269,
+      "bottom20_found_pct": 60.213
     }
   ],
   "backtest_local_average": [
@@ -73,51 +93,51 @@
     },
     {
       "model": "Ridge regression",
-      "vd_MAE_pp": 5.429,
-      "vd_rank_rho": 0.683,
-      "bottom20_found_pct": 55.182,
-      "muni_MAE_pp": 1.972,
-      "muni_rank_rho": 0.641,
+      "vd_MAE_pp": 5.528,
+      "vd_rank_rho": 0.673,
+      "bottom20_found_pct": 54.787,
+      "muni_MAE_pp": 1.907,
+      "muni_rank_rho": 0.648,
       "lowest5_found": 2.667
     },
     {
       "model": "Gradient boosting",
-      "vd_MAE_pp": 5.392,
-      "vd_rank_rho": 0.692,
-      "bottom20_found_pct": 58.64,
-      "muni_MAE_pp": 2.152,
-      "muni_rank_rho": 0.614,
+      "vd_MAE_pp": 5.35,
+      "vd_rank_rho": 0.699,
+      "bottom20_found_pct": 58.516,
+      "muni_MAE_pp": 2.065,
+      "muni_rank_rho": 0.616,
       "lowest5_found": 2.667
     },
     {
       "model": "Gradient boosting + municipal context",
-      "vd_MAE_pp": 5.426,
-      "vd_rank_rho": 0.701,
-      "bottom20_found_pct": 57.774,
-      "muni_MAE_pp": 2.29,
-      "muni_rank_rho": 0.633,
+      "vd_MAE_pp": 5.493,
+      "vd_rank_rho": 0.697,
+      "bottom20_found_pct": 57.874,
+      "muni_MAE_pp": 2.339,
+      "muni_rank_rho": 0.618,
       "lowest5_found": 2.667
     },
     {
       "model": "Ensemble",
-      "vd_MAE_pp": 5.293,
-      "vd_rank_rho": 0.689,
-      "bottom20_found_pct": 60.356,
-      "muni_MAE_pp": 1.863,
-      "muni_rank_rho": 0.63,
+      "vd_MAE_pp": 5.268,
+      "vd_rank_rho": 0.693,
+      "bottom20_found_pct": 60.213,
+      "muni_MAE_pp": 1.819,
+      "muni_rank_rho": 0.635,
       "lowest5_found": 3.0
     }
   ],
   "local_interval_80_error_pp": [
-    -2.747,
-    2.994
+    -3.097,
+    2.691
   ],
   "province_2026_pct": {
     "central": 39.47,
     "low": 33.85,
     "high": 44.23
   },
-  "mpumalanga_turnout_2026_forecast_pct": 39.36,
+  "mpumalanga_turnout_2026_forecast_pct": 39.64,
   "priority_weights": {
     "low_turnout_forecast": 0.35,
     "youth_gap": 0.25,
@@ -125,5 +145,5 @@
     "weak_audit": 0.2
   },
   "profiles_k": 2,
-  "created": "2026-09-24T20:54:03+00:00"
+  "created": "2026-09-24T21:56:40+00:00"
 }

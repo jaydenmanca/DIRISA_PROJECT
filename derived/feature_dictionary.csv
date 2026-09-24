@@ -18,6 +18,15 @@ muni_rel_lag1,"IEC results, earlier elections (Stage 2)",yes,local position mode
 muni_rel_lag2,"IEC results, earlier elections (Stage 2)",yes,local position model,19.8
 province_turnout_lag1,"IEC results, earlier elections (Stage 2)",yes,first version only,0.0
 muni_roll_growth_pct,IEC voters roll (Stage 2; 2026: IEC dashboard),yes,municipal context (tested),0.0
+muni_roll_growth_rel,IEC voters roll (Stage 2; 2026: IEC dashboard),yes,new feature (tested in Stage 5),0.0
+vd_beta,"IEC results, earlier elections (Stage 2)",yes,new feature (tested in Stage 5),65.4
+vd_rel_volatility,"IEC results, earlier elections (Stage 2)",yes,new feature (tested in Stage 5),65.4
+vd_venue_tent,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
+vd_venue_farm,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
+vd_venue_traditional,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
+vd_venue_church,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
+vd_venue_school,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
+vd_venue_hall,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
 years_since_previous,"IEC results, earlier elections (Stage 2)",yes,first version only,0.0
 muni_audit_score_last,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),municipal context (tested),44.4
 muni_audit_score_3yr,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),municipal context (tested),44.4
