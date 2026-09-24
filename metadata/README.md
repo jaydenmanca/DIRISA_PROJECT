@@ -1,6 +1,6 @@
 # DIRISA 2026 data metadata and join contract
 
-This folder governs the files used by `model.ipynb` and the root-level baseline file `LGE_All_Sources_Master_721327_Rows.csv`.
+This folder governs the files used by `model.ipynb` and the root-level baseline file `DATASETS/iec_results/LGE_All_Sources_Master_721327_Rows.csv`.
 
 ## Current source inventory
 
@@ -11,7 +11,7 @@ The current `DATASETS` folder contains:
 
 The root baseline is:
 
-3. `LGE_All_Sources_Master_721327_Rows.csv` - a team-derived, long-format integration of IEC/election-results data. It contains 721,327 data rows and is not the final modelling table.
+3. `DATASETS/iec_results/LGE_All_Sources_Master_721327_Rows.csv` - a team-derived, long-format integration of IEC/election-results data. It contains 721,327 data rows and is not the final modelling table.
 
 ## Governing rules
 
@@ -56,11 +56,11 @@ The notebook should load these metadata files before loading data. The first not
 Source: Stats SA Census 2022 Ten Percent Sample (report 03-01-47). The official metadata PDFs are in `metadata/census2022_docs/`. The code-to-label mapping for every household variable is in `metadata/census2022_household_codebook_derived.csv`. It was derived by joining the coded file to the labelled `housing_dataset.csv` on QID (1,048,575 households, identical weights) and checked against the Stats SA household metadata.
 
 Files:
-- `DATASETS/Census2022_raw/Census2022sample_F18.csv`: geography (Province, District, Municipality, Geo_type), one row per household (QID).
-- `DATASETS/Census2022_raw/Census2022sample_F19.csv`: household variables + `HH_WGT`.
-- `DATASETS/Census2022_raw/Census2022sample_F21.csv`: persons (age, sex, citizenship, education, ...) + `PERS_WGT`; link to F18 on QID for municipality.
-- `DATASETS/Census2022_F18_F19_Combined_full.csv`: F18 + F19 joined one-to-one on QID (1,338,295 households, all 9 provinces).
-- `housing_dataset.csv` (root): labelled version of F19, but truncated at 1,048,575 rows and 104,023 rows stored as one quoted string. Use only as a codebook reference, never as data.
+- `DATASETS/census2022/raw/Census2022sample_F18.csv`: geography (Province, District, Municipality, Geo_type), one row per household (QID).
+- `DATASETS/census2022/raw/Census2022sample_F19.csv`: household variables + `HH_WGT`.
+- `DATASETS/census2022/raw/Census2022sample_F21.csv`: persons (age, sex, citizenship, education, ...) + `PERS_WGT`; link to F18 on QID for municipality.
+- `DATASETS/census2022/Census2022_F18_F19_Combined_full.csv`: F18 + F19 joined one-to-one on QID (1,338,295 households, all 9 provinces).
+- `housing_dataset.csv` (deleted): a labelled but truncated version of F19, used only to derive the codebook.
 
 Rules:
 1. **Households = conventional dwellings only** (`H01_QUARTERS` in 1, 2). Weighted total 17.82M matches the published 17.8M. Codes 3-5 are excluded from household indicators.
@@ -111,3 +111,16 @@ Findings:
 - Youth (18-29) registration is below 30+ registration in 211 of 213 municipalities.
 - Census conditions are only weakly associated with 2021 municipal turnout (Spearman |rho| <= 0.28). Turnout history is expected to carry most of the predictive signal.
 - A voting district's own history exists for 78% of 2006 targets, rising to 97% of 2021 targets. The remainder are new or renumbered districts, which fall back on municipality history.
+
+## Project layout (updated 2026-09-24)
+
+The project is Mpumalanga-only. Other provinces' election files were deleted by team decision. Large inputs (over 100 MB) are stored zipped in `DATASETS/compressed/`; notebook cell 1.3 unpacks them into the paths below.
+
+| Folder | Contents |
+|---|---|
+| `DATASETS/iec_results/` | baseline results 2000-2021 (from zip); `local_elections/` MP 2011, 2016, 2021; `official_turnout_reports/`; `provincial_elections/` |
+| `DATASETS/iec_registration/` | 2026 registered voters workbook; 2026 dashboard extract by municipality, age and gender |
+| `DATASETS/census2022/` | combined household file and `raw/` F18, F19, F21 (from zips) |
+| `DATASETS/auditor_general/` | audit opinions (JSON) |
+| `DATASETS/reference/` | context-only files (press figures, VAP 2000-2016, municipal codes, national age tables) |
+| `DATASETS/compressed/` | zipped large inputs |

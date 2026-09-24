@@ -1,0 +1,1197 @@
+"# Municipality code crosswalk across boundary/demarcation versions, ALL PROVINCES (national), 2000-2026."
+# Sources: IEC Atlas GeoServer (atlas.elections.org.za) per-election-year municipality layers (2000/2006/2011/2016/2021); MDB_Local_Municipalities_2026.csv (current).
+"# Raw / unfiltered by design -- province-level filtering (e.g. to Mpumalanga) to be done as a later cleaning step, not here."
+municipality_code,municipality_name,province,election_year,boundary_version
+,EC05b2 - Umzimvubu [Mount Ayliff],Eastern Cape,2000,LGE2000_boundary
+,EC05b3 - Matatiele [Matatiele],Eastern Cape,2000,LGE2000_boundary
+EC101,Camdeboo [Graaff-Reinet],Eastern Cape,2000,LGE2000_boundary
+EC102,Blue Crane Route [Somerset East],Eastern Cape,2000,LGE2000_boundary
+EC103,Ikwezi [Jansenville],Eastern Cape,2000,LGE2000_boundary
+EC104,Makana [Grahamstown],Eastern Cape,2000,LGE2000_boundary
+EC105,Ndlambe [Port Alfred],Eastern Cape,2000,LGE2000_boundary
+EC106,Sundays River Valley [Kirkwood],Eastern Cape,2000,LGE2000_boundary
+EC107,Baviaans [Willowmore],Eastern Cape,2000,LGE2000_boundary
+EC108,Kouga [Humansdorp],Eastern Cape,2000,LGE2000_boundary
+EC109,Kou-Kamma [Kareedouw],Eastern Cape,2000,LGE2000_boundary
+EC121,Mbhashe [Idutywa],Eastern Cape,2000,LGE2000_boundary
+EC122,Mnquma [Butterworth],Eastern Cape,2000,LGE2000_boundary
+EC123,Great Kei [Komga],Eastern Cape,2000,LGE2000_boundary
+EC124,Amahlathi [Stutterheim],Eastern Cape,2000,LGE2000_boundary
+EC125,Buffalo City [East London],Eastern Cape,2000,LGE2000_boundary
+EC126,Ngqushwa [Peddie],Eastern Cape,2000,LGE2000_boundary
+EC127,Nkonkobe [Alice],Eastern Cape,2000,LGE2000_boundary
+EC128,Nxuba [Adelaide],Eastern Cape,2000,LGE2000_boundary
+EC131,Inxuba Yethemba [Cradock],Eastern Cape,2000,LGE2000_boundary
+EC132,Tsolwana [Tarkastad],Eastern Cape,2000,LGE2000_boundary
+EC133,Inkwanca [Molteno],Eastern Cape,2000,LGE2000_boundary
+EC134,Lukhanji [Queenstown],Eastern Cape,2000,LGE2000_boundary
+EC135,Intsika Yethu [Cofimvaba],Eastern Cape,2000,LGE2000_boundary
+EC136,Emalahleni [Lady Frere],Eastern Cape,2000,LGE2000_boundary
+EC137,Engcobo [Engcobo],Eastern Cape,2000,LGE2000_boundary
+EC138,Sakhisizwe [Elliot],Eastern Cape,2000,LGE2000_boundary
+EC141,Elundini [Mount Fletcher],Eastern Cape,2000,LGE2000_boundary
+EC142,Senqu [Barkly East],Eastern Cape,2000,LGE2000_boundary
+EC143,Maletswai [Aliwal North],Eastern Cape,2000,LGE2000_boundary
+EC144,Gariep [Burgersdorp],Eastern Cape,2000,LGE2000_boundary
+EC151,Mbizana [Bizana],Eastern Cape,2000,LGE2000_boundary
+EC152,Ntabankulu [Ntabankulu],Eastern Cape,2000,LGE2000_boundary
+EC153,Qaukeni [Flagstaff (Ingquza Hill)],Eastern Cape,2000,LGE2000_boundary
+EC154,Port St Johns [Port St Johns],Eastern Cape,2000,LGE2000_boundary
+EC155,Nyandeni [Libode],Eastern Cape,2000,LGE2000_boundary
+EC156,Mhlontlo [Qumbu],Eastern Cape,2000,LGE2000_boundary
+EC157,King Sabata Dalindyebo [Umtata],Eastern Cape,2000,LGE2000_boundary
+ECDMA10,Aberdeen Plain,Eastern Cape,2000,LGE2000_boundary
+ECDMA13,Mount Zebra NP,Eastern Cape,2000,LGE2000_boundary
+ECDMA14,Oviston Nature Reserve,Eastern Cape,2000,LGE2000_boundary
+ECDMA44,O Conners Camp,Eastern Cape,2000,LGE2000_boundary
+NMA,Nelson Mandela Bay [Port Elizabeth],Eastern Cape,2000,LGE2000_boundary
+FS161,Letsemeng [Koffiefontein],Free State,2000,LGE2000_boundary
+FS162,Kopanong [Trompsburg],Free State,2000,LGE2000_boundary
+FS163,Mohokare [Zastron],Free State,2000,LGE2000_boundary
+FS171,Naledi [Dewetsdorp],Free State,2000,LGE2000_boundary
+FS172,Mangaung [Bloemfontein],Free State,2000,LGE2000_boundary
+FS173,Mantsopa [Ladybrand],Free State,2000,LGE2000_boundary
+FS181,Masilonyana [Theunissen],Free State,2000,LGE2000_boundary
+FS182,Tokologo [Dealesville],Free State,2000,LGE2000_boundary
+FS183,Tswelopele [Hoopstad],Free State,2000,LGE2000_boundary
+FS184,Matjhabeng [Welkom],Free State,2000,LGE2000_boundary
+FS185,Nala [Bothaville],Free State,2000,LGE2000_boundary
+FS191,Setsoto [Senekal],Free State,2000,LGE2000_boundary
+FS192,Dihlabeng [Bethlehem],Free State,2000,LGE2000_boundary
+FS193,Nketoana [Reitz],Free State,2000,LGE2000_boundary
+FS194,Maluti a Phofung [Qwa-Qwa],Free State,2000,LGE2000_boundary
+FS195,Phumelela [Vrede],Free State,2000,LGE2000_boundary
+FS201,Moqhaka [Kroonstad],Free State,2000,LGE2000_boundary
+FS203,Ngwathe [Parys],Free State,2000,LGE2000_boundary
+FS204,Metsimaholo [Sasolburg],Free State,2000,LGE2000_boundary
+FS205,Mafube [Frankfort],Free State,2000,LGE2000_boundary
+FSDMA19,Golden Gate Highlands NP,Free State,2000,LGE2000_boundary
+,GT02b2 - Kungwini [Bronkhorstspruit],Gauteng,2000,LGE2000_boundary
+,GT02b1 - Nokeng tsa Taemane [Cullinan],Gauteng,2000,LGE2000_boundary
+EKU,Ekurhuleni [East Rand],Gauteng,2000,LGE2000_boundary
+GT421,Emfuleni [Vereeniging],Gauteng,2000,LGE2000_boundary
+GT422,Midvaal [Meyerton],Gauteng,2000,LGE2000_boundary
+GT423,Lesedi [Heidelberg],Gauteng,2000,LGE2000_boundary
+GT481,Mogale City [Krugersdorp],Gauteng,2000,LGE2000_boundary
+GT482,Randfontein [Randfontein],Gauteng,2000,LGE2000_boundary
+GT483,Westonaria [Westonaria],Gauteng,2000,LGE2000_boundary
+GTDMA48,West Rand [Sterkfontein DMA],Gauteng,2000,LGE2000_boundary
+JHB,City of Johannesburg [Johannesburg],Gauteng,2000,LGE2000_boundary
+TSH,Tshwane Metro [Pretoria],Gauteng,2000,LGE2000_boundary
+,KZ5a4 - Greater Kokstad [Kokstad],Kwazulu Natal,2000,LGE2000_boundary
+,KZ5a6 - Umzimkhulu [Umzimkulu],Kwazulu Natal,2000,LGE2000_boundary
+,KZ5a1 - Ingwe [Creighton],Kwazulu Natal,2000,LGE2000_boundary
+,KZ5a2 - Kwa Sani [Underberg],Kwazulu Natal,2000,LGE2000_boundary
+,KZ5a5 - Ubuhlebezwe [Ixopo],Kwazulu Natal,2000,LGE2000_boundary
+ETH,eThekwini [Durban Metro],Kwazulu Natal,2000,LGE2000_boundary
+KZ211,Vulamehlo [Dududu],Kwazulu Natal,2000,LGE2000_boundary
+KZ212,Umdoni [Scottburgh],Kwazulu Natal,2000,LGE2000_boundary
+KZ213,Umzumbe [Umzumbe],Kwazulu Natal,2000,LGE2000_boundary
+KZ214,UMuziwabantu [Harding],Kwazulu Natal,2000,LGE2000_boundary
+KZ215,Ezinqoleni [Izinqolweni],Kwazulu Natal,2000,LGE2000_boundary
+KZ216,Hibiscus Coast [Port Shepstone],Kwazulu Natal,2000,LGE2000_boundary
+KZ221,uMshwathi [Wartburg],Kwazulu Natal,2000,LGE2000_boundary
+KZ222,uMngeni [Howick],Kwazulu Natal,2000,LGE2000_boundary
+KZ223,Mooi Mpofana [Mooirivier],Kwazulu Natal,2000,LGE2000_boundary
+KZ224,Impendle [Impendle],Kwazulu Natal,2000,LGE2000_boundary
+KZ225,Msunduzi [Pietermaritzburg],Kwazulu Natal,2000,LGE2000_boundary
+KZ226,Mkhambathini [Camperdown],Kwazulu Natal,2000,LGE2000_boundary
+KZ227,Richmond [Richmond],Kwazulu Natal,2000,LGE2000_boundary
+KZ232,Emnambithi/Ladysmith [Ladysmith],Kwazulu Natal,2000,LGE2000_boundary
+KZ233,Indaka [Waaihoek],Kwazulu Natal,2000,LGE2000_boundary
+KZ234,Umtshezi [Estcourt],Kwazulu Natal,2000,LGE2000_boundary
+KZ235,Okhahlamba [Bergville],Kwazulu Natal,2000,LGE2000_boundary
+KZ236,Imbabazane [Loskop],Kwazulu Natal,2000,LGE2000_boundary
+KZ241,Endumeni [Dundee],Kwazulu Natal,2000,LGE2000_boundary
+KZ242,Nqutu [Nqutu],Kwazulu Natal,2000,LGE2000_boundary
+KZ244,Msinga [Pomeroy],Kwazulu Natal,2000,LGE2000_boundary
+KZ245,Umvoti [Greytown],Kwazulu Natal,2000,LGE2000_boundary
+KZ252,NeWESTERN CAPEastle [Newcastle],Kwazulu Natal,2000,LGE2000_boundary
+KZ253,Utrecht [Utrecht],Kwazulu Natal,2000,LGE2000_boundary
+KZ254,Dannhauser [Durnacol],Kwazulu Natal,2000,LGE2000_boundary
+KZ261,eDumbe [Paulpietersburg],Kwazulu Natal,2000,LGE2000_boundary
+KZ262,UPhongolo [Pongola],Kwazulu Natal,2000,LGE2000_boundary
+KZ263,Abaqulusi [Vryheid],Kwazulu Natal,2000,LGE2000_boundary
+KZ265,Nongoma [Nongoma],Kwazulu Natal,2000,LGE2000_boundary
+KZ266,Ulundi [Ulundi],Kwazulu Natal,2000,LGE2000_boundary
+KZ271,Umhlabuyalingana [Emangusi],Kwazulu Natal,2000,LGE2000_boundary
+KZ272,Jozini [Mkuze],Kwazulu Natal,2000,LGE2000_boundary
+KZ273,The Big 5 False Bay [Hluhluwe],Kwazulu Natal,2000,LGE2000_boundary
+KZ274,Hlabisa [Somkele],Kwazulu Natal,2000,LGE2000_boundary
+KZ275,Mtubatuba [Mtubatuba],Kwazulu Natal,2000,LGE2000_boundary
+KZ281,Mbonambi [KwaMbonambi],Kwazulu Natal,2000,LGE2000_boundary
+KZ282,uMhlathuze [Richards Bay],Kwazulu Natal,2000,LGE2000_boundary
+KZ283,Ntambana [Ntambana],Kwazulu Natal,2000,LGE2000_boundary
+KZ284,uMlalazi [Eshowe],Kwazulu Natal,2000,LGE2000_boundary
+KZ285,Mthonjaneni [Melmoth],Kwazulu Natal,2000,LGE2000_boundary
+KZ286,Nkandla [Nkandla],Kwazulu Natal,2000,LGE2000_boundary
+KZ291,eNdondakusuka [Mandeni],Kwazulu Natal,2000,LGE2000_boundary
+KZ292,KwaDukuza [Stanger],Kwazulu Natal,2000,LGE2000_boundary
+KZ293,Ndwedwe [Ndwedwe],Kwazulu Natal,2000,LGE2000_boundary
+KZ294,Maphumulo [Maphumulo],Kwazulu Natal,2000,LGE2000_boundary
+KZDMA22,Highmoor/Kamberg Park,Kwazulu Natal,2000,LGE2000_boundary
+KZDMA23,Gaints Castle Game Reserve,Kwazulu Natal,2000,LGE2000_boundary
+KZDMA27,St Lucia Park,Kwazulu Natal,2000,LGE2000_boundary
+KZDMA43,Mkhomazi Wilderness area,Kwazulu Natal,2000,LGE2000_boundary
+MP301,Albert Luthuli [Elukwatini/Carolina],Mpumalanga,2000,LGE2000_boundary
+MP302,Msukaligwa [Ermelo],Mpumalanga,2000,LGE2000_boundary
+MP303,Mkhondo [Piet Retief],Mpumalanga,2000,LGE2000_boundary
+MP304,Pixley Ka Seme [Volksrust],Mpumalanga,2000,LGE2000_boundary
+MP305,Lekwa [Standerton],Mpumalanga,2000,LGE2000_boundary
+MP306,Dipaleseng [Balfour],Mpumalanga,2000,LGE2000_boundary
+MP307,Govan Mbeki [Highveld Ridge],Mpumalanga,2000,LGE2000_boundary
+MP311,Delmas [Delmas],Mpumalanga,2000,LGE2000_boundary
+MP312,Emalahleni [Witbank],Mpumalanga,2000,LGE2000_boundary
+MP313,Steve Tshwete [Middelburg],Mpumalanga,2000,LGE2000_boundary
+MP314,Highlands [Belfast],Mpumalanga,2000,LGE2000_boundary
+MP315,Thembisile [KwaMhlanga],Mpumalanga,2000,LGE2000_boundary
+MP316,Dr JS Moroka [Mdutjana],Mpumalanga,2000,LGE2000_boundary
+MP321,Thaba Chweu [Sabie],Mpumalanga,2000,LGE2000_boundary
+MP322,Mbombela [Nelspruit],Mpumalanga,2000,LGE2000_boundary
+MP323,Umjindi [Barberton],Mpumalanga,2000,LGE2000_boundary
+MP324,Nkomazi [Nkomazi],Mpumalanga,2000,LGE2000_boundary
+MP325,Bushbuckridge [Bushbuckridge],Mpumalanga,2000,LGE2000_boundary
+MPDMA32,Kruger Park,Mpumalanga,2000,LGE2000_boundary
+NW371,Moretele [Temba],North West,2000,LGE2000_boundary
+NW372,Madibeng [Brits],North West,2000,LGE2000_boundary
+NW373,Rustenburg [Rustenburg],North West,2000,LGE2000_boundary
+NW374,Kgetlengrivier [Koster],North West,2000,LGE2000_boundary
+NW375,Moses Kotane [Mogwase],North West,2000,LGE2000_boundary
+NW381,Ratlou [Setlagole],North West,2000,LGE2000_boundary
+NW382,Tswaing [Delareyville],North West,2000,LGE2000_boundary
+NW383,Mafikeng [Mafikeng],North West,2000,LGE2000_boundary
+NW384,Ditsobotla [Lichtenburg],North West,2000,LGE2000_boundary
+NW385,Ramotshere Moiloa [Zeerust],North West,2000,LGE2000_boundary
+NW391,Kagisano [Ganyesa],North West,2000,LGE2000_boundary
+NW392,Naledi [Vryburg],North West,2000,LGE2000_boundary
+NW393,Mamusa [Schweizer-Reneke],North West,2000,LGE2000_boundary
+NW394,Greater Taung [Reivilo],North West,2000,LGE2000_boundary
+NW395,Molopo [Pomfret],North West,2000,LGE2000_boundary
+NW396,Lekwa-Teemane [Christiana],North West,2000,LGE2000_boundary
+NW401,Ventersdorp [Ventersdorp],North West,2000,LGE2000_boundary
+NW402,Potchefstroom [Potchefstroom],North West,2000,LGE2000_boundary
+NW403,Matlosana [Klerksdorp],North West,2000,LGE2000_boundary
+NW404,Maquassi Hills [Wolmaransstad],North West,2000,LGE2000_boundary
+NW405,Merafong City [Carletonville],North West,2000,LGE2000_boundary
+NC061,RICHTERSVELD [Port Nolloth],Northern Cape,2000,LGE2000_boundary
+NC062,NAMA KHOI [Springbok],Northern Cape,2000,LGE2000_boundary
+NC064,KAMIESBERG [Garies],Northern Cape,2000,LGE2000_boundary
+NC065,HANTAM [Calvinia],Northern Cape,2000,LGE2000_boundary
+NC066,KAROO HOOGLAND [Fraserburg],Northern Cape,2000,LGE2000_boundary
+NC067,KHâI-MA [Pofadder],Northern Cape,2000,LGE2000_boundary
+NC071,UBUNTU [Victoria West],Northern Cape,2000,LGE2000_boundary
+NC072,UMSOBOMVU [Colesberg],Northern Cape,2000,LGE2000_boundary
+NC073,EMTHANJENI [De Aar],Northern Cape,2000,LGE2000_boundary
+NC074,KAREEBERG [Carnarvon],Northern Cape,2000,LGE2000_boundary
+NC075,RENOSTERBERG [Phillipstown],Northern Cape,2000,LGE2000_boundary
+NC076,THEMBELIHLE [Hopetown],Northern Cape,2000,LGE2000_boundary
+NC077,SIYATHEMBA [Prieska],Northern Cape,2000,LGE2000_boundary
+NC078,SIYANCUMA [Griekwastad],Northern Cape,2000,LGE2000_boundary
+NC081,MIER [Mier],Northern Cape,2000,LGE2000_boundary
+NC082,KAI !GARIB [Keimoes],Northern Cape,2000,LGE2000_boundary
+NC083,KHARA HAIS [Upington],Northern Cape,2000,LGE2000_boundary
+NC084,!KHEIS [Groblershoop],Northern Cape,2000,LGE2000_boundary
+NC085,TSANTSABANE [Postmasburg],Northern Cape,2000,LGE2000_boundary
+NC086,KGATELOPELE [Danielskuil],Northern Cape,2000,LGE2000_boundary
+NC091,Sol Plaatje [Kimberley],Northern Cape,2000,LGE2000_boundary
+NC092,Dikgatlong [Barkley West],Northern Cape,2000,LGE2000_boundary
+NC093,Magareng [Warrenton],Northern Cape,2000,LGE2000_boundary
+NC094,Phokwane [Hartswater],Northern Cape,2000,LGE2000_boundary
+NC451,MOSHAWENG [Kgalagadi],Northern Cape,2000,LGE2000_boundary
+NC452,GA-SEGONYANA [Kuruman],Northern Cape,2000,LGE2000_boundary
+NC453,GAMAGARA [Kathu],Northern Cape,2000,LGE2000_boundary
+NCDMA06,Namaqualand,Northern Cape,2000,LGE2000_boundary
+NCDMA07,Bo Karoo,Northern Cape,2000,LGE2000_boundary
+NCDMA08,Benede,Northern Cape,2000,LGE2000_boundary
+NCDMA09,Diamondfields,Northern Cape,2000,LGE2000_boundary
+NCDMA45,Kalahari CBDC,Northern Cape,2000,LGE2000_boundary
+,NP03a5 - Greater Groblersdal [Groblersdal],Northern Province,2000,LGE2000_boundary
+,NP03a4 - Greater Marble Hall [Marble Hall],Northern Province,2000,LGE2000_boundary
+,NP03A2 - Makhuduthamaga [Ngwaritsi],Northern Province,2000,LGE2000_boundary
+,NP03a6 - Greater Tubatse [Burgersfort/Ohrigstad/Eastern Tubatse],Northern Province,2000,LGE2000_boundary
+,NP03A3 - Fetakgomo [Fetakgomo ],Northern Province,2000,LGE2000_boundary
+,NPDMA33,Northern Province,2000,LGE2000_boundary
+NP331,Greater Giyani [Giyani],Northern Province,2000,LGE2000_boundary
+NP332,Greater Letaba [Duiwelskloof],Northern Province,2000,LGE2000_boundary
+NP333,Greater Tzaneen [Tzaneen],Northern Province,2000,LGE2000_boundary
+NP334,Ba-Phalaborwa [Phalaborwa],Northern Province,2000,LGE2000_boundary
+NP335,Maruleng [Hoedspruit],Northern Province,2000,LGE2000_boundary
+NP341,Musina [Messina],Northern Province,2000,LGE2000_boundary
+NP342,Mutale [Mutale-Masisi],Northern Province,2000,LGE2000_boundary
+NP343,Thulamela [Thohoyandou],Northern Province,2000,LGE2000_boundary
+NP344,Makhado [Louis Trichardt],Northern Province,2000,LGE2000_boundary
+NP351,Blouberg [Bochum/My Darling],Northern Province,2000,LGE2000_boundary
+NP352,Aganang [Moletji/Matlala],Northern Province,2000,LGE2000_boundary
+NP353,Molemole [Dendron/Dikgale],Northern Province,2000,LGE2000_boundary
+NP354,Polokwane [Pietersburg],Northern Province,2000,LGE2000_boundary
+NP355,Lepele-Nkumpi [Lebowakgomo],Northern Province,2000,LGE2000_boundary
+NP361,Thabazimbi [Thabazimbi],Northern Province,2000,LGE2000_boundary
+NP362,Lephalale [Ellisras],Northern Province,2000,LGE2000_boundary
+NP364,Mookgopong [Naboomspruit],Northern Province,2000,LGE2000_boundary
+NP365,Modimolle [Nylstroom],Northern Province,2000,LGE2000_boundary
+NP366,Bela-Bela [Warmbad],Northern Province,2000,LGE2000_boundary
+NP367,Mogalakwena [Potgietersrus],Northern Province,2000,LGE2000_boundary
+,WESTERN CAPE024 - Stellenbosch [Stellenbosch],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE023 - Drakenstein [Paarl],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE032 - Overstrand [Greater Hermanus],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE031 - Theewaterskloof [Caledon],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE025 - Breede Valley [Worcester],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE033 - Cape Agulhas [Bredasdorp],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE034 - Swellendam [Barrydale/Swellendam ],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE026 - Breede River/Winelands [Robertson],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPEDMA03 [Overberg DC],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE042 - Hessequa [Heidelberg/Riversdale],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE041 - Kannaland [Ladismith],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE043 - Mossel Bay [Mossel Bay],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE045 - Oudtshoorn [Oudtshoorn],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE044 - George [George],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE048 - Knysna [Knysna],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPEDMA04 [South Cape DC],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE047 - Bitou [Greater Plettenberg Bay],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE014 - Saldanha Bay [West Coast Peninsula],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE015 - Swartland [Malmesbury],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE013 - Bergrivier [Velddrif],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE011 - Matzikama [Vredendal],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPEDMA01 [West Coast DC],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE022 - Witzenberg [Ceres],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE012 - Cederberg [Citrusdal],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPEDMA02 [Brede River DC],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE051,Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE052,Western Cape,2000,LGE2000_boundary
+,WESTERN CAPE053 - Beaufort West [Beaufort West],Western Cape,2000,LGE2000_boundary
+,WESTERN CAPEDMA05 [Central Karoo DC],Western Cape,2000,LGE2000_boundary
+CPT,City of Cape Town [Cape Town],Western Cape,2000,LGE2000_boundary
+EC05b2,Umzimvubu,EASTERN CAPE,2006,LGE2006_boundary
+EC05b3,Matatiele,EASTERN CAPE,2006,LGE2006_boundary
+EC125,Buffalo City,EASTERN CAPE,2006,LGE2006_boundary
+EC151,Mbizana,EASTERN CAPE,2006,LGE2006_boundary
+EC152,Ntabankulu,EASTERN CAPE,2006,LGE2006_boundary
+ECDMA10,,EASTERN CAPE,2006,LGE2006_boundary
+ECDMA13,,EASTERN CAPE,2006,LGE2006_boundary
+EC101,Camdeboo,Eastern Cape,2006,LGE2006_boundary
+EC102,Blue Crane Route,Eastern Cape,2006,LGE2006_boundary
+EC103,Ikwezi,Eastern Cape,2006,LGE2006_boundary
+EC104,Makana,Eastern Cape,2006,LGE2006_boundary
+EC105,Ndlambe,Eastern Cape,2006,LGE2006_boundary
+EC106,Sunday's River Valley,Eastern Cape,2006,LGE2006_boundary
+EC107,Baviaans,Eastern Cape,2006,LGE2006_boundary
+EC108,Kouga,Eastern Cape,2006,LGE2006_boundary
+EC109,Kou-Kamma,Eastern Cape,2006,LGE2006_boundary
+EC121,Mbhashe,Eastern Cape,2006,LGE2006_boundary
+EC122,Mnquma,Eastern Cape,2006,LGE2006_boundary
+EC123,Great Kei,Eastern Cape,2006,LGE2006_boundary
+EC124,Amahlathi,Eastern Cape,2006,LGE2006_boundary
+EC126,Ngqushwa,Eastern Cape,2006,LGE2006_boundary
+EC127,Nkonkobe,Eastern Cape,2006,LGE2006_boundary
+EC128,Nxuba,Eastern Cape,2006,LGE2006_boundary
+EC131,Inxuba Yethemba,Eastern Cape,2006,LGE2006_boundary
+EC132,Tsolwana,Eastern Cape,2006,LGE2006_boundary
+EC133,Inkwanca,Eastern Cape,2006,LGE2006_boundary
+EC134,Lukanji,Eastern Cape,2006,LGE2006_boundary
+EC135,Intsika Yethu,Eastern Cape,2006,LGE2006_boundary
+EC136,Emalahleni,Eastern Cape,2006,LGE2006_boundary
+EC137,Engcobo,Eastern Cape,2006,LGE2006_boundary
+EC138,Sakhisizwe,Eastern Cape,2006,LGE2006_boundary
+EC141,Elundini,Eastern Cape,2006,LGE2006_boundary
+EC142,Senqu,Eastern Cape,2006,LGE2006_boundary
+EC143,Maletswai,Eastern Cape,2006,LGE2006_boundary
+EC144,Gariep,Eastern Cape,2006,LGE2006_boundary
+EC153,Qaukeni,Eastern Cape,2006,LGE2006_boundary
+EC154,Port St Johns,Eastern Cape,2006,LGE2006_boundary
+EC155,Nyandeni,Eastern Cape,2006,LGE2006_boundary
+EC156,Mhlontlo,Eastern Cape,2006,LGE2006_boundary
+EC157,King Sabata Dalindyebo,Eastern Cape,2006,LGE2006_boundary
+NMA,Nelson Mandela,Eastern Cape,2006,LGE2006_boundary
+FS171,Naledi,FREE STATE,2006,LGE2006_boundary
+FS172,Mangaung,FREE STATE,2006,LGE2006_boundary
+FS173,Mantsopa,FREE STATE,2006,LGE2006_boundary
+FSDMA19,,FREE STATE,2006,LGE2006_boundary
+FS161,Letsemeng,Free State,2006,LGE2006_boundary
+FS162,Kopanong,Free State,2006,LGE2006_boundary
+FS163,Mohokare,Free State,2006,LGE2006_boundary
+FS181,Masilonyana,Free State,2006,LGE2006_boundary
+FS182,Tokologo,Free State,2006,LGE2006_boundary
+FS183,Tswelopele,Free State,2006,LGE2006_boundary
+FS184,Matjhabeng,Free State,2006,LGE2006_boundary
+FS185,Nala,Free State,2006,LGE2006_boundary
+FS191,Setsoto,Free State,2006,LGE2006_boundary
+FS192,Dihlabeng,Free State,2006,LGE2006_boundary
+FS193,Nketoana,Free State,2006,LGE2006_boundary
+FS194,Maluti a Phofung,Free State,2006,LGE2006_boundary
+FS195,Phumelela,Free State,2006,LGE2006_boundary
+FS201,Moqhaka,Free State,2006,LGE2006_boundary
+FS203,Ngwathe,Free State,2006,LGE2006_boundary
+FS204,Metsimaholo,Free State,2006,LGE2006_boundary
+FS205,Mafube,Free State,2006,LGE2006_boundary
+GT02b1,Nokeng tsa Taemane,GAUTENG,2006,LGE2006_boundary
+GT02b2,Kungwini,GAUTENG,2006,LGE2006_boundary
+GTDMA48,West Rand,GAUTENG,2006,LGE2006_boundary
+EKU,Ekurhuleni Metropolitan,Gauteng,2006,LGE2006_boundary
+GT421,Emfuleni,Gauteng,2006,LGE2006_boundary
+GT422,Midvaal,Gauteng,2006,LGE2006_boundary
+GT423,Lesedi,Gauteng,2006,LGE2006_boundary
+GT481,Mogale City,Gauteng,2006,LGE2006_boundary
+GT482,Randfontein,Gauteng,2006,LGE2006_boundary
+GT483,Westonaria,Gauteng,2006,LGE2006_boundary
+JHB,City of Johannesburg,Gauteng,2006,LGE2006_boundary
+TSH,City of Tshwane,Gauteng,2006,LGE2006_boundary
+KZ211,Vulamehlo,KWAZULU NATAL,2006,LGE2006_boundary
+KZ212,Umdoni,KWAZULU NATAL,2006,LGE2006_boundary
+KZ213,Umzumbe,KWAZULU NATAL,2006,LGE2006_boundary
+KZ214,UMuziwabantu,KWAZULU NATAL,2006,LGE2006_boundary
+KZ215,Ezingoleni,KWAZULU NATAL,2006,LGE2006_boundary
+KZ216,Hibiscus Coast,KWAZULU NATAL,2006,LGE2006_boundary
+KZ221,uMshwathi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ222,uMngeni,KWAZULU NATAL,2006,LGE2006_boundary
+KZ223,Mooi Mpofana,KWAZULU NATAL,2006,LGE2006_boundary
+KZ224,KZ224,KWAZULU NATAL,2006,LGE2006_boundary
+KZ225,The Msunduzi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ226,Mkhambathini,KWAZULU NATAL,2006,LGE2006_boundary
+KZ227,Richmond,KWAZULU NATAL,2006,LGE2006_boundary
+KZ232,Emnambithi/Ladysmith,KWAZULU NATAL,2006,LGE2006_boundary
+KZ233,Indaka,KWAZULU NATAL,2006,LGE2006_boundary
+KZ234,Umtshezi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ235,Okhahlamba  (KZ235),KWAZULU NATAL,2006,LGE2006_boundary
+KZ236,Imbabazane  (KZ236),KWAZULU NATAL,2006,LGE2006_boundary
+KZ241,Endumeni,KWAZULU NATAL,2006,LGE2006_boundary
+KZ242,KZ242,KWAZULU NATAL,2006,LGE2006_boundary
+KZ244,Msinga,KWAZULU NATAL,2006,LGE2006_boundary
+KZ245,Umvoti,KWAZULU NATAL,2006,LGE2006_boundary
+KZ252,Newcastle,KWAZULU NATAL,2006,LGE2006_boundary
+KZ253,Utrecht,KWAZULU NATAL,2006,LGE2006_boundary
+KZ254,Dannhauser  (KZ254),KWAZULU NATAL,2006,LGE2006_boundary
+KZ261,eDumbe,KWAZULU NATAL,2006,LGE2006_boundary
+KZ262,UPhongolo,KWAZULU NATAL,2006,LGE2006_boundary
+KZ263,Abaqulusi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ265,Nongoma  (KZ265),KWAZULU NATAL,2006,LGE2006_boundary
+KZ266,Ulundi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ271,Umhlabuyalingana,KWAZULU NATAL,2006,LGE2006_boundary
+KZ272,Jozini,KWAZULU NATAL,2006,LGE2006_boundary
+KZ273,The Big 5 False Bay,KWAZULU NATAL,2006,LGE2006_boundary
+KZ274,Hlabisa,KWAZULU NATAL,2006,LGE2006_boundary
+KZ275,Mtubatuba,KWAZULU NATAL,2006,LGE2006_boundary
+KZ281,Mbonambi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ282,uMhlathuze,KWAZULU NATAL,2006,LGE2006_boundary
+KZ283,Ntambanana,KWAZULU NATAL,2006,LGE2006_boundary
+KZ284,uMlalazi,KWAZULU NATAL,2006,LGE2006_boundary
+KZ285,Mthonjaneni,KWAZULU NATAL,2006,LGE2006_boundary
+KZ286,Nkandla,KWAZULU NATAL,2006,LGE2006_boundary
+KZ291,eNdondakusuka,KWAZULU NATAL,2006,LGE2006_boundary
+KZ292,KwaDukuza,KWAZULU NATAL,2006,LGE2006_boundary
+KZ293,Ndwedwe,KWAZULU NATAL,2006,LGE2006_boundary
+KZ294,Maphumulo,KWAZULU NATAL,2006,LGE2006_boundary
+KZ5a1,Ingwe,KWAZULU NATAL,2006,LGE2006_boundary
+KZ5a2,Kwa Sani,KWAZULU NATAL,2006,LGE2006_boundary
+KZ5a4,Greater Kokstad,KWAZULU NATAL,2006,LGE2006_boundary
+KZ5a5,Ubuhlebezwe,KWAZULU NATAL,2006,LGE2006_boundary
+KZ5a6,Umzimkhulu,KWAZULU NATAL,2006,LGE2006_boundary
+KZDMA22,,KWAZULU NATAL,2006,LGE2006_boundary
+KZDMA23,,KWAZULU NATAL,2006,LGE2006_boundary
+KZDMA27,,KWAZULU NATAL,2006,LGE2006_boundary
+KZDMA43,,KWAZULU NATAL,2006,LGE2006_boundary
+ETH,Ethekwini,KwaZulu-Natal,2006,LGE2006_boundary
+MPDMA32,,MPUMALANGA,2006,LGE2006_boundary
+MP301,Albert Luthuli,Mpumalanga,2006,LGE2006_boundary
+MP302,Msukaligwa,Mpumalanga,2006,LGE2006_boundary
+MP303,Mkhondo,Mpumalanga,2006,LGE2006_boundary
+MP304,Seme,Mpumalanga,2006,LGE2006_boundary
+MP305,Lekwa,Mpumalanga,2006,LGE2006_boundary
+MP306,Dipaleseng,Mpumalanga,2006,LGE2006_boundary
+MP307,Highveld East,Mpumalanga,2006,LGE2006_boundary
+MP311,Delmas,Mpumalanga,2006,LGE2006_boundary
+MP312,Emalahleni,Mpumalanga,2006,LGE2006_boundary
+MP313,Middelburg,Mpumalanga,2006,LGE2006_boundary
+MP314,Highlands,Mpumalanga,2006,LGE2006_boundary
+MP315,Thembisile,Mpumalanga,2006,LGE2006_boundary
+MP316,Dr JS Moroka,Mpumalanga,2006,LGE2006_boundary
+MP321,Thaba Chweu,Mpumalanga,2006,LGE2006_boundary
+MP322,Mbombela,Mpumalanga,2006,LGE2006_boundary
+MP323,Umjindi,Mpumalanga,2006,LGE2006_boundary
+MP324,Nkomazi,Mpumalanga,2006,LGE2006_boundary
+MP325,Bushbuckridge,Mpumalanga,2006,LGE2006_boundary
+NW391,Kagisano,NORTH WEST,2006,LGE2006_boundary
+NW395,Molopo,NORTH WEST,2006,LGE2006_boundary
+NW405,Merafong City,NORTH WEST,2006,LGE2006_boundary
+NCDMA06,,NORTHERN CAPE,2006,LGE2006_boundary
+NCDMA07,,NORTHERN CAPE,2006,LGE2006_boundary
+NCDMA08,,NORTHERN CAPE,2006,LGE2006_boundary
+NCDMA09,,NORTHERN CAPE,2006,LGE2006_boundary
+NCDMA45,,NORTHERN CAPE,2006,LGE2006_boundary
+NP03a2,Makhuduthamaga,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP03a3,Fetakgomo,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP03a4,Greater Marble Hall,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP03a5,Greater Groblersdal,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP03a6,Greater Tubatse,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP331,Greater Giyani,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP332,Greater Letaba,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP333,Greater Tzaneen,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP334,Ba-Phalaborwa,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP335,Maruleng,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP341,Musina,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP342,Mutale,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP343,Thulamela,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP344,Makhado,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP351,Blouberg,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP352,Aganang,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP353,Molemole,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP354,Polokwane,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP355,Lepele-Nkumpi,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP361,Thabazimbi,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP362,Lephalale,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP364,Mookgopong,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP365,Modimolle,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP366,Bela-Bela,NORTHERN PROVINCE,2006,LGE2006_boundary
+NP367,Mogalakwena,NORTHERN PROVINCE,2006,LGE2006_boundary
+NPDMA33,,NORTHERN PROVINCE,2006,LGE2006_boundary
+NW371,Moretele,North West,2006,LGE2006_boundary
+NW372,Local Municipality of Madibeng,North West,2006,LGE2006_boundary
+NW373,Rustenburg,North West,2006,LGE2006_boundary
+NW374,Kgetlengrivier,North West,2006,LGE2006_boundary
+NW375,Moses Kotane,North West,2006,LGE2006_boundary
+NW381,Setla-Kgobi,North West,2006,LGE2006_boundary
+NW382,Tswaing,North West,2006,LGE2006_boundary
+NW383,Mafikeng,North West,2006,LGE2006_boundary
+NW384,Lichtenburg,North West,2006,LGE2006_boundary
+NW385,Zeerust,North West,2006,LGE2006_boundary
+NW392,Naledi,North West,2006,LGE2006_boundary
+NW393,Schweizer-Reneke,North West,2006,LGE2006_boundary
+NW394,Greater Taung,North West,2006,LGE2006_boundary
+NW396,Lekwa-Teemane,North West,2006,LGE2006_boundary
+NW401,Ventersdorp,North West,2006,LGE2006_boundary
+NW402,Potchefstroom,North West,2006,LGE2006_boundary
+NW403,City Council of Klerksdorp,North West,2006,LGE2006_boundary
+NW404,Maquassi Hills,North West,2006,LGE2006_boundary
+NC061,Richtersveld,Northern Cape,2006,LGE2006_boundary
+NC062,Nama Khoi,Northern Cape,2006,LGE2006_boundary
+NC064,Kamiesberg,Northern Cape,2006,LGE2006_boundary
+NC065,Hantam,Northern Cape,2006,LGE2006_boundary
+NC066,Karoo Hoogland,Northern Cape,2006,LGE2006_boundary
+NC067,Khâi-Ma,Northern Cape,2006,LGE2006_boundary
+NC071,Ubuntu,Northern Cape,2006,LGE2006_boundary
+NC072,Umsobomvu,Northern Cape,2006,LGE2006_boundary
+NC073,Emthanjeni,Northern Cape,2006,LGE2006_boundary
+NC074,Kareeberg,Northern Cape,2006,LGE2006_boundary
+NC075,Renosterberg,Northern Cape,2006,LGE2006_boundary
+NC076,Thembelihle,Northern Cape,2006,LGE2006_boundary
+NC077,Siyathemba,Northern Cape,2006,LGE2006_boundary
+NC078,Siyancuma,Northern Cape,2006,LGE2006_boundary
+NC081,Mier,Northern Cape,2006,LGE2006_boundary
+NC082,Kai !Garib,Northern Cape,2006,LGE2006_boundary
+NC083,//Khara Hais,Northern Cape,2006,LGE2006_boundary
+NC084,!Kheis,Northern Cape,2006,LGE2006_boundary
+NC085,Tsantsabane,Northern Cape,2006,LGE2006_boundary
+NC086,Kgatelopele,Northern Cape,2006,LGE2006_boundary
+NC091,Sol Plaatjie,Northern Cape,2006,LGE2006_boundary
+NC092,Dikgatlong,Northern Cape,2006,LGE2006_boundary
+NC093,Magareng,Northern Cape,2006,LGE2006_boundary
+NC094,Phokwane,Northern Cape,2006,LGE2006_boundary
+NC451,Moshaweng,Northern Cape,2006,LGE2006_boundary
+NC452,Ga-Segonyana,Northern Cape,2006,LGE2006_boundary
+NC453,Gamagara,Northern Cape,2006,LGE2006_boundary
+WCDMA01,,WESTERN CAPE,2006,LGE2006_boundary
+WCDMA02,,WESTERN CAPE,2006,LGE2006_boundary
+WCDMA03,,WESTERN CAPE,2006,LGE2006_boundary
+WCDMA04,,WESTERN CAPE,2006,LGE2006_boundary
+WCDMA05,,WESTERN CAPE,2006,LGE2006_boundary
+CPT,City of Cape Town,Western Cape,2006,LGE2006_boundary
+WC011,Matzikama,Western Cape,2006,LGE2006_boundary
+WC012,Cederberg,Western Cape,2006,LGE2006_boundary
+WC013,Bergrivier,Western Cape,2006,LGE2006_boundary
+WC014,Saldanha Bay,Western Cape,2006,LGE2006_boundary
+WC015,Swartland,Western Cape,2006,LGE2006_boundary
+WC022,Witzenberg,Western Cape,2006,LGE2006_boundary
+WC023,Drakenstein,Western Cape,2006,LGE2006_boundary
+WC024,Stellenbosch,Western Cape,2006,LGE2006_boundary
+WC025,Breede Valley,Western Cape,2006,LGE2006_boundary
+WC026,Breede River/Winelands,Western Cape,2006,LGE2006_boundary
+WC031,Theewaterskloof,Western Cape,2006,LGE2006_boundary
+WC032,Overstrand,Western Cape,2006,LGE2006_boundary
+WC033,Cape Agulhas,Western Cape,2006,LGE2006_boundary
+WC034,Swellendam,Western Cape,2006,LGE2006_boundary
+WC041,Kannaland,Western Cape,2006,LGE2006_boundary
+WC042,Langeberg,Western Cape,2006,LGE2006_boundary
+WC043,Mossel Bay,Western Cape,2006,LGE2006_boundary
+WC044,George,Western Cape,2006,LGE2006_boundary
+WC045,Oudtshoorn,Western Cape,2006,LGE2006_boundary
+WC047,Plettenberg Bay,Western Cape,2006,LGE2006_boundary
+WC048,Knysna,Western Cape,2006,LGE2006_boundary
+WC051,Laingsburg,Western Cape,2006,LGE2006_boundary
+WC052,Prince Albert,Western Cape,2006,LGE2006_boundary
+WC053,Beaufort West,Western Cape,2006,LGE2006_boundary
+BUF,BUF - Buffalo City,Eastern Cape,2011,LGE2011_boundary
+EC101,Camdeboo,Eastern Cape,2011,LGE2011_boundary
+EC102,Blue Crane Route,Eastern Cape,2011,LGE2011_boundary
+EC103,Ikwezi,Eastern Cape,2011,LGE2011_boundary
+EC104,Makana,Eastern Cape,2011,LGE2011_boundary
+EC105,Ndlambe,Eastern Cape,2011,LGE2011_boundary
+EC106,Sundays River Valley,Eastern Cape,2011,LGE2011_boundary
+EC107,Baviaans,Eastern Cape,2011,LGE2011_boundary
+EC108,Kouga,Eastern Cape,2011,LGE2011_boundary
+EC109,Kou-Kamma,Eastern Cape,2011,LGE2011_boundary
+EC121,Mbhashe,Eastern Cape,2011,LGE2011_boundary
+EC122,Mnquma,Eastern Cape,2011,LGE2011_boundary
+EC123,Great Kei,Eastern Cape,2011,LGE2011_boundary
+EC124,Amahlathi,Eastern Cape,2011,LGE2011_boundary
+EC126,Ngqushwa,Eastern Cape,2011,LGE2011_boundary
+EC127,Nkonkobe,Eastern Cape,2011,LGE2011_boundary
+EC128,Nxuba,Eastern Cape,2011,LGE2011_boundary
+EC131,Inxuba Yethemba,Eastern Cape,2011,LGE2011_boundary
+EC132,Tsolwana,Eastern Cape,2011,LGE2011_boundary
+EC133,Inkwanca,Eastern Cape,2011,LGE2011_boundary
+EC134,Lukhanji,Eastern Cape,2011,LGE2011_boundary
+EC135,Intsika Yethu,Eastern Cape,2011,LGE2011_boundary
+EC136,Emalahleni,Eastern Cape,2011,LGE2011_boundary
+EC137,Engcobo,Eastern Cape,2011,LGE2011_boundary
+EC138,Sakhisizwe,Eastern Cape,2011,LGE2011_boundary
+EC141,Elundini,Eastern Cape,2011,LGE2011_boundary
+EC142,Senqu,Eastern Cape,2011,LGE2011_boundary
+EC143,Maletswai,Eastern Cape,2011,LGE2011_boundary
+EC144,Gariep,Eastern Cape,2011,LGE2011_boundary
+EC153,Ngquza Hill,Eastern Cape,2011,LGE2011_boundary
+EC154,Port St Johns,Eastern Cape,2011,LGE2011_boundary
+EC155,Nyandeni,Eastern Cape,2011,LGE2011_boundary
+EC156,Mhlontlo,Eastern Cape,2011,LGE2011_boundary
+EC157,King Sabata Dalindyebo,Eastern Cape,2011,LGE2011_boundary
+EC441,Matatiele,Eastern Cape,2011,LGE2011_boundary
+EC442,Umzimvubu,Eastern Cape,2011,LGE2011_boundary
+EC443,Mbizana,Eastern Cape,2011,LGE2011_boundary
+EC444,Ntabankulu,Eastern Cape,2011,LGE2011_boundary
+NMA,NMA - Nelson Mandela Bay,Eastern Cape,2011,LGE2011_boundary
+FS161,Letsemeng,Free State,2011,LGE2011_boundary
+FS162,Kopanong,Free State,2011,LGE2011_boundary
+FS163,Mohokare,Free State,2011,LGE2011_boundary
+FS164,Naledi,Free State,2011,LGE2011_boundary
+FS181,Masilonyana,Free State,2011,LGE2011_boundary
+FS182,Tokologo,Free State,2011,LGE2011_boundary
+FS183,Tswelopele,Free State,2011,LGE2011_boundary
+FS184,Matjhabeng,Free State,2011,LGE2011_boundary
+FS185,Nala,Free State,2011,LGE2011_boundary
+FS191,Setsoto,Free State,2011,LGE2011_boundary
+FS192,Dihlabeng,Free State,2011,LGE2011_boundary
+FS193,Nketoana,Free State,2011,LGE2011_boundary
+FS194,Maluti a Phofung,Free State,2011,LGE2011_boundary
+FS195,Phumelela,Free State,2011,LGE2011_boundary
+FS196,Mantsopa,Free State,2011,LGE2011_boundary
+FS201,Moqhaka,Free State,2011,LGE2011_boundary
+FS203,Ngwathe,Free State,2011,LGE2011_boundary
+FS204,Metsimaholo,Free State,2011,LGE2011_boundary
+FS205,Mafube,Free State,2011,LGE2011_boundary
+MAN,MAN - Mangaung,Free State,2011,LGE2011_boundary
+EKU,EKU - Ekurhuleni,Gauteng,2011,LGE2011_boundary
+GT421,Emfuleni,Gauteng,2011,LGE2011_boundary
+GT422,Midvaal,Gauteng,2011,LGE2011_boundary
+GT423,Lesedi,Gauteng,2011,LGE2011_boundary
+GT481,Mogale City,Gauteng,2011,LGE2011_boundary
+GT482,Randfontein,Gauteng,2011,LGE2011_boundary
+GT483,Westonaria,Gauteng,2011,LGE2011_boundary
+GT484,Merafong City,Gauteng,2011,LGE2011_boundary
+JHB,JHB - City of Johannesburg,Gauteng,2011,LGE2011_boundary
+TSH,TSH - Tshwane Metro,Gauteng,2011,LGE2011_boundary
+ETH,ETH - eThekwini,KwaZulu-Natal,2011,LGE2011_boundary
+KZN211,Vulamehlo,KwaZulu-Natal,2011,LGE2011_boundary
+KZN212,Umdoni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN213,Umzumbe,KwaZulu-Natal,2011,LGE2011_boundary
+KZN214,UMuziwabantu,KwaZulu-Natal,2011,LGE2011_boundary
+KZN215,Ezinqoleni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN216,Hibiscus Coast,KwaZulu-Natal,2011,LGE2011_boundary
+KZN221,uMshwathi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN222,uMngeni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN223,Mooi Mpofana,KwaZulu-Natal,2011,LGE2011_boundary
+KZN224,Impendle,KwaZulu-Natal,2011,LGE2011_boundary
+KZN225,Msunduzi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN226,Mkhambathini,KwaZulu-Natal,2011,LGE2011_boundary
+KZN227,Richmond,KwaZulu-Natal,2011,LGE2011_boundary
+KZN232,Emnambithi/Ladysmith,KwaZulu-Natal,2011,LGE2011_boundary
+KZN233,Indaka,KwaZulu-Natal,2011,LGE2011_boundary
+KZN234,Umtshezi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN235,Okhahlamba,KwaZulu-Natal,2011,LGE2011_boundary
+KZN236,Imbabazane,KwaZulu-Natal,2011,LGE2011_boundary
+KZN241,Endumeni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN242,Nqutu,KwaZulu-Natal,2011,LGE2011_boundary
+KZN244,Msinga,KwaZulu-Natal,2011,LGE2011_boundary
+KZN245,Umvoti,KwaZulu-Natal,2011,LGE2011_boundary
+KZN252,Newcastle,KwaZulu-Natal,2011,LGE2011_boundary
+KZN253,eMadlangeni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN254,Dannhauser,KwaZulu-Natal,2011,LGE2011_boundary
+KZN261,eDumbe,KwaZulu-Natal,2011,LGE2011_boundary
+KZN262,UPhongolo,KwaZulu-Natal,2011,LGE2011_boundary
+KZN263,Abaqulusi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN265,Nongoma,KwaZulu-Natal,2011,LGE2011_boundary
+KZN266,Ulundi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN271,Umhlabuyalingana,KwaZulu-Natal,2011,LGE2011_boundary
+KZN272,Jozini,KwaZulu-Natal,2011,LGE2011_boundary
+KZN273,The Big 5 False Bay,KwaZulu-Natal,2011,LGE2011_boundary
+KZN274,Hlabisa,KwaZulu-Natal,2011,LGE2011_boundary
+KZN275,Mtubatuba,KwaZulu-Natal,2011,LGE2011_boundary
+KZN281,Mfolozi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN282,uMhlathuze,KwaZulu-Natal,2011,LGE2011_boundary
+KZN283,Ntambana,KwaZulu-Natal,2011,LGE2011_boundary
+KZN284,uMlalazi,KwaZulu-Natal,2011,LGE2011_boundary
+KZN285,Mthonjaneni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN286,Nkandla,KwaZulu-Natal,2011,LGE2011_boundary
+KZN291,Mandeni,KwaZulu-Natal,2011,LGE2011_boundary
+KZN292,KwaDukuza,KwaZulu-Natal,2011,LGE2011_boundary
+KZN293,Ndwedwe,KwaZulu-Natal,2011,LGE2011_boundary
+KZN294,Maphumulo,KwaZulu-Natal,2011,LGE2011_boundary
+KZN431,Ingwe,KwaZulu-Natal,2011,LGE2011_boundary
+KZN432,Kwa Sani,KwaZulu-Natal,2011,LGE2011_boundary
+KZN433,Greater Kokstad,KwaZulu-Natal,2011,LGE2011_boundary
+KZN434,Ubuhlebezwe,KwaZulu-Natal,2011,LGE2011_boundary
+KZN435,Umzimkhulu,KwaZulu-Natal,2011,LGE2011_boundary
+LIM331,Greater Giyani,Limpopo,2011,LGE2011_boundary
+LIM332,Greater Letaba,Limpopo,2011,LGE2011_boundary
+LIM333,Greater Tzaneen,Limpopo,2011,LGE2011_boundary
+LIM334,Ba-Phalaborwa,Limpopo,2011,LGE2011_boundary
+LIM335,Maruleng,Limpopo,2011,LGE2011_boundary
+LIM341,Musina,Limpopo,2011,LGE2011_boundary
+LIM342,Mutale,Limpopo,2011,LGE2011_boundary
+LIM343,Thulamela,Limpopo,2011,LGE2011_boundary
+LIM344,Makhado,Limpopo,2011,LGE2011_boundary
+LIM351,Blouberg,Limpopo,2011,LGE2011_boundary
+LIM352,Aganang,Limpopo,2011,LGE2011_boundary
+LIM353,Molemole,Limpopo,2011,LGE2011_boundary
+LIM354,Polokwane,Limpopo,2011,LGE2011_boundary
+LIM355,Lepele-Nkumpi,Limpopo,2011,LGE2011_boundary
+LIM361,Thabazimbi,Limpopo,2011,LGE2011_boundary
+LIM362,Lephalale,Limpopo,2011,LGE2011_boundary
+LIM364,Mookgopong,Limpopo,2011,LGE2011_boundary
+LIM365,Modimolle,Limpopo,2011,LGE2011_boundary
+LIM366,Bela-Bela,Limpopo,2011,LGE2011_boundary
+LIM367,Mogalakwena,Limpopo,2011,LGE2011_boundary
+LIM471,Greater Marble Hall,Limpopo,2011,LGE2011_boundary
+LIM472,Greater Groblersdal,Limpopo,2011,LGE2011_boundary
+LIM473,Makhuduthamaga,Limpopo,2011,LGE2011_boundary
+LIM474,Fetakgomo,Limpopo,2011,LGE2011_boundary
+LIM475,Greater Tubatse,Limpopo,2011,LGE2011_boundary
+MP301,Albert Luthuli,Mpumalanga,2011,LGE2011_boundary
+MP302,Msukaligwa,Mpumalanga,2011,LGE2011_boundary
+MP303,Mkhondo,Mpumalanga,2011,LGE2011_boundary
+MP304,Pixley Ka Seme,Mpumalanga,2011,LGE2011_boundary
+MP305,Lekwa,Mpumalanga,2011,LGE2011_boundary
+MP306,Dipaleseng,Mpumalanga,2011,LGE2011_boundary
+MP307,Govan Mbeki,Mpumalanga,2011,LGE2011_boundary
+MP311,Delmas,Mpumalanga,2011,LGE2011_boundary
+MP312,Emalahleni,Mpumalanga,2011,LGE2011_boundary
+MP313,Steve Tshwete,Mpumalanga,2011,LGE2011_boundary
+MP314,Emakhazeni,Mpumalanga,2011,LGE2011_boundary
+MP315,Thembisile,Mpumalanga,2011,LGE2011_boundary
+MP316,Dr JS Moroka,Mpumalanga,2011,LGE2011_boundary
+MP321,Thaba Chweu,Mpumalanga,2011,LGE2011_boundary
+MP322,Mbombela,Mpumalanga,2011,LGE2011_boundary
+MP323,Umjindi,Mpumalanga,2011,LGE2011_boundary
+MP324,Nkomazi,Mpumalanga,2011,LGE2011_boundary
+MP325,Bushbuckridge,Mpumalanga,2011,LGE2011_boundary
+NW371,Moretele,North West,2011,LGE2011_boundary
+NW372,Madibeng,North West,2011,LGE2011_boundary
+NW373,Rustenburg,North West,2011,LGE2011_boundary
+NW374,Kgetlengrivier,North West,2011,LGE2011_boundary
+NW375,Moses Kotane,North West,2011,LGE2011_boundary
+NW381,Ratlou,North West,2011,LGE2011_boundary
+NW382,Tswaing,North West,2011,LGE2011_boundary
+NW383,Mafikeng,North West,2011,LGE2011_boundary
+NW384,Ditsobotla,North West,2011,LGE2011_boundary
+NW385,Ramotshere Moiloa,North West,2011,LGE2011_boundary
+NW392,Naledi,North West,2011,LGE2011_boundary
+NW393,Mamusa,North West,2011,LGE2011_boundary
+NW394,Greater Taung,North West,2011,LGE2011_boundary
+NW396,Lekwa-Teemane,North West,2011,LGE2011_boundary
+NW397,NW397 Local Municipality,North West,2011,LGE2011_boundary
+NW401,Ventersdorp,North West,2011,LGE2011_boundary
+NW402,Potchefstroom,North West,2011,LGE2011_boundary
+NW403,Matlosana,North West,2011,LGE2011_boundary
+NW404,Maquassi Hills,North West,2011,LGE2011_boundary
+NC061,RICHTERSVELD,Northern Cape,2011,LGE2011_boundary
+NC062,NAMA KHOI,Northern Cape,2011,LGE2011_boundary
+NC064,KAMIESBERG,Northern Cape,2011,LGE2011_boundary
+NC065,HANTAM,Northern Cape,2011,LGE2011_boundary
+NC066,KAROO HOOGLAND,Northern Cape,2011,LGE2011_boundary
+NC067,KHâI-MA,Northern Cape,2011,LGE2011_boundary
+NC071,UBUNTU,Northern Cape,2011,LGE2011_boundary
+NC072,UMSOBOMVU,Northern Cape,2011,LGE2011_boundary
+NC073,EMTHANJENI,Northern Cape,2011,LGE2011_boundary
+NC074,KAREEBERG,Northern Cape,2011,LGE2011_boundary
+NC075,RENOSTERBERG,Northern Cape,2011,LGE2011_boundary
+NC076,THEMBELIHLE,Northern Cape,2011,LGE2011_boundary
+NC077,SIYATHEMBA,Northern Cape,2011,LGE2011_boundary
+NC078,SIYANCUMA,Northern Cape,2011,LGE2011_boundary
+NC081,MIER,Northern Cape,2011,LGE2011_boundary
+NC082,KAI !GARIB,Northern Cape,2011,LGE2011_boundary
+NC083,KHARA HAIS,Northern Cape,2011,LGE2011_boundary
+NC084,!KHEIS,Northern Cape,2011,LGE2011_boundary
+NC085,TSANTSABANE,Northern Cape,2011,LGE2011_boundary
+NC086,KGATELOPELE,Northern Cape,2011,LGE2011_boundary
+NC091,Sol Plaatje,Northern Cape,2011,LGE2011_boundary
+NC092,Dikgatlong,Northern Cape,2011,LGE2011_boundary
+NC093,Magareng,Northern Cape,2011,LGE2011_boundary
+NC094,Phokwane,Northern Cape,2011,LGE2011_boundary
+NC451,Joe Morolong,Northern Cape,2011,LGE2011_boundary
+NC452,GA-SEGONYANA,Northern Cape,2011,LGE2011_boundary
+NC453,GAMAGARA,Northern Cape,2011,LGE2011_boundary
+CPT,CPT - City of Cape Town,Western Cape,2011,LGE2011_boundary
+WC011,Matzikama,Western Cape,2011,LGE2011_boundary
+WC012,Cederberg,Western Cape,2011,LGE2011_boundary
+WC013,Bergrivier,Western Cape,2011,LGE2011_boundary
+WC014,Saldanha Bay,Western Cape,2011,LGE2011_boundary
+WC015,Swartland,Western Cape,2011,LGE2011_boundary
+WC022,Witzenberg,Western Cape,2011,LGE2011_boundary
+WC023,Drakenstein,Western Cape,2011,LGE2011_boundary
+WC024,Stellenbosch,Western Cape,2011,LGE2011_boundary
+WC025,Breede Valley,Western Cape,2011,LGE2011_boundary
+WC026,Langeberg,Western Cape,2011,LGE2011_boundary
+WC031,Theewaterskloof,Western Cape,2011,LGE2011_boundary
+WC032,Overstrand,Western Cape,2011,LGE2011_boundary
+WC033,Cape Agulhas,Western Cape,2011,LGE2011_boundary
+WC034,Swellendam,Western Cape,2011,LGE2011_boundary
+WC041,Kannaland,Western Cape,2011,LGE2011_boundary
+WC042,Hessequa,Western Cape,2011,LGE2011_boundary
+WC043,Mossel Bay,Western Cape,2011,LGE2011_boundary
+WC044,George,Western Cape,2011,LGE2011_boundary
+WC045,Oudtshoorn,Western Cape,2011,LGE2011_boundary
+WC047,Bitou,Western Cape,2011,LGE2011_boundary
+WC048,Knysna,Western Cape,2011,LGE2011_boundary
+WC051,Laingsburg,Western Cape,2011,LGE2011_boundary
+WC052,Prince Albert,Western Cape,2011,LGE2011_boundary
+WC053,Beaufort West,Western Cape,2011,LGE2011_boundary
+BUF,BUF - Buffalo City,Eastern Cape,2016,LGE2016_boundary
+EC101,Dr. Beyers Naude,Eastern Cape,2016,LGE2016_boundary
+EC102,Blue Crane Route,Eastern Cape,2016,LGE2016_boundary
+EC104,Makana,Eastern Cape,2016,LGE2016_boundary
+EC105,Ndlambe,Eastern Cape,2016,LGE2016_boundary
+EC106,Sundays River Valley,Eastern Cape,2016,LGE2016_boundary
+EC108,Kouga,Eastern Cape,2016,LGE2016_boundary
+EC109,Kou-Kamma,Eastern Cape,2016,LGE2016_boundary
+EC121,Mbhashe,Eastern Cape,2016,LGE2016_boundary
+EC122,Mnquma,Eastern Cape,2016,LGE2016_boundary
+EC123,Great Kei,Eastern Cape,2016,LGE2016_boundary
+EC124,Amahlathi,Eastern Cape,2016,LGE2016_boundary
+EC126,Ngqushwa,Eastern Cape,2016,LGE2016_boundary
+EC129,Raymond Mhlaba,Eastern Cape,2016,LGE2016_boundary
+EC131,Inxuba Yethemba,Eastern Cape,2016,LGE2016_boundary
+EC135,Intsika Yethu,Eastern Cape,2016,LGE2016_boundary
+EC136,Emalahleni,Eastern Cape,2016,LGE2016_boundary
+EC137,Engcobo,Eastern Cape,2016,LGE2016_boundary
+EC138,Sakhisizwe,Eastern Cape,2016,LGE2016_boundary
+EC139,Enoch Mgijima,Eastern Cape,2016,LGE2016_boundary
+EC141,Elundini,Eastern Cape,2016,LGE2016_boundary
+EC142,Senqu,Eastern Cape,2016,LGE2016_boundary
+EC145,Walter Sisulu,Eastern Cape,2016,LGE2016_boundary
+EC153,Ngquza Hill,Eastern Cape,2016,LGE2016_boundary
+EC154,Port St Johns,Eastern Cape,2016,LGE2016_boundary
+EC155,Nyandeni,Eastern Cape,2016,LGE2016_boundary
+EC156,Mhlontlo,Eastern Cape,2016,LGE2016_boundary
+EC157,King Sabata Dalindyebo,Eastern Cape,2016,LGE2016_boundary
+EC441,Matatiele,Eastern Cape,2016,LGE2016_boundary
+EC442,Umzimvubu,Eastern Cape,2016,LGE2016_boundary
+EC443,Mbizana,Eastern Cape,2016,LGE2016_boundary
+EC444,Ntabankulu,Eastern Cape,2016,LGE2016_boundary
+NMA,NMA - Nelson Mandela Bay,Eastern Cape,2016,LGE2016_boundary
+FS161,Letsemeng,Free State,2016,LGE2016_boundary
+FS162,Kopanong,Free State,2016,LGE2016_boundary
+FS163,Mohokare,Free State,2016,LGE2016_boundary
+FS181,Masilonyana,Free State,2016,LGE2016_boundary
+FS182,Tokologo,Free State,2016,LGE2016_boundary
+FS183,Tswelopele,Free State,2016,LGE2016_boundary
+FS184,Matjhabeng,Free State,2016,LGE2016_boundary
+FS185,Nala,Free State,2016,LGE2016_boundary
+FS191,Setsoto,Free State,2016,LGE2016_boundary
+FS192,Dihlabeng,Free State,2016,LGE2016_boundary
+FS193,Nketoana,Free State,2016,LGE2016_boundary
+FS194,Maluti a Phofung,Free State,2016,LGE2016_boundary
+FS195,Phumelela,Free State,2016,LGE2016_boundary
+FS196,Mantsopa,Free State,2016,LGE2016_boundary
+FS201,Moqhaka,Free State,2016,LGE2016_boundary
+FS203,Ngwathe,Free State,2016,LGE2016_boundary
+FS204,Metsimaholo,Free State,2016,LGE2016_boundary
+FS205,Mafube,Free State,2016,LGE2016_boundary
+MAN,MAN - Mangaung,Free State,2016,LGE2016_boundary
+EKU,EKU - Ekurhuleni,Gauteng,2016,LGE2016_boundary
+GT421,Emfuleni,Gauteng,2016,LGE2016_boundary
+GT422,Midvaal,Gauteng,2016,LGE2016_boundary
+GT423,Lesedi,Gauteng,2016,LGE2016_boundary
+GT481,Mogale City,Gauteng,2016,LGE2016_boundary
+GT484,Merafong City,Gauteng,2016,LGE2016_boundary
+GT485,Rand West City,Gauteng,2016,LGE2016_boundary
+JHB,JHB - City of Johannesburg,Gauteng,2016,LGE2016_boundary
+TSH,TSH - Tshwane Metro,Gauteng,2016,LGE2016_boundary
+ETH,ETH - eThekwini,KwaZulu-Natal,2016,LGE2016_boundary
+KZN212,uMdoni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN213,uMzumbe,KwaZulu-Natal,2016,LGE2016_boundary
+KZN214,uMuziwabantu,KwaZulu-Natal,2016,LGE2016_boundary
+KZN216,Ray Nkonyeni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN221,uMshwathi,KwaZulu-Natal,2016,LGE2016_boundary
+KZN222,uMngeni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN223,Mpofana,KwaZulu-Natal,2016,LGE2016_boundary
+KZN224,iMpendle,KwaZulu-Natal,2016,LGE2016_boundary
+KZN225,Msunduzi,KwaZulu-Natal,2016,LGE2016_boundary
+KZN226,Mkhambathini,KwaZulu-Natal,2016,LGE2016_boundary
+KZN227,Richmond,KwaZulu-Natal,2016,LGE2016_boundary
+KZN235,Okhahlamba,KwaZulu-Natal,2016,LGE2016_boundary
+KZN237,iNkosi Langalibalele,KwaZulu-Natal,2016,LGE2016_boundary
+KZN238,Alfred Duma,KwaZulu-Natal,2016,LGE2016_boundary
+KZN241,eNdumeni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN242,Nqutu,KwaZulu-Natal,2016,LGE2016_boundary
+KZN244,uMsinga,KwaZulu-Natal,2016,LGE2016_boundary
+KZN245,uMvoti,KwaZulu-Natal,2016,LGE2016_boundary
+KZN252,Newcastle,KwaZulu-Natal,2016,LGE2016_boundary
+KZN253,eMadlangeni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN254,Dannhauser,KwaZulu-Natal,2016,LGE2016_boundary
+KZN261,eDumbe,KwaZulu-Natal,2016,LGE2016_boundary
+KZN262,uPhongolo,KwaZulu-Natal,2016,LGE2016_boundary
+KZN263,AbaQulusi,KwaZulu-Natal,2016,LGE2016_boundary
+KZN265,Nongoma,KwaZulu-Natal,2016,LGE2016_boundary
+KZN266,Ulundi,KwaZulu-Natal,2016,LGE2016_boundary
+KZN271,uMhlabuyalingana,KwaZulu-Natal,2016,LGE2016_boundary
+KZN272,Jozini,KwaZulu-Natal,2016,LGE2016_boundary
+KZN275,Mtubatuba,KwaZulu-Natal,2016,LGE2016_boundary
+KZN276,Big Five Hlabisa,KwaZulu-Natal,2016,LGE2016_boundary
+KZN281,uMfolozi,KwaZulu-Natal,2016,LGE2016_boundary
+KZN282,uMhlathuze,KwaZulu-Natal,2016,LGE2016_boundary
+KZN284,uMlalazi,KwaZulu-Natal,2016,LGE2016_boundary
+KZN285,Mthonjaneni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN286,Nkandla,KwaZulu-Natal,2016,LGE2016_boundary
+KZN291,Mandeni,KwaZulu-Natal,2016,LGE2016_boundary
+KZN292,KwaDukuza,KwaZulu-Natal,2016,LGE2016_boundary
+KZN293,Ndwedwe,KwaZulu-Natal,2016,LGE2016_boundary
+KZN294,Maphumulo,KwaZulu-Natal,2016,LGE2016_boundary
+KZN433,Greater Kokstad,KwaZulu-Natal,2016,LGE2016_boundary
+KZN434,uBuhlebezwe,KwaZulu-Natal,2016,LGE2016_boundary
+KZN435,uMzimkhulu,KwaZulu-Natal,2016,LGE2016_boundary
+KZN436,Dr. Nkosazana Dlamini Zuma,KwaZulu-Natal,2016,LGE2016_boundary
+LIM331,Greater Giyani,Limpopo,2016,LGE2016_boundary
+LIM332,Greater Letaba,Limpopo,2016,LGE2016_boundary
+LIM333,Greater Tzaneen,Limpopo,2016,LGE2016_boundary
+LIM334,Ba-Phalaborwa,Limpopo,2016,LGE2016_boundary
+LIM335,Maruleng,Limpopo,2016,LGE2016_boundary
+LIM341,Musina,Limpopo,2016,LGE2016_boundary
+LIM343,Thulamela,Limpopo,2016,LGE2016_boundary
+LIM344,Makhado,Limpopo,2016,LGE2016_boundary
+LIM345,Collins Chabane,Limpopo,2016,LGE2016_boundary
+LIM351,Blouberg,Limpopo,2016,LGE2016_boundary
+LIM353,Molemole,Limpopo,2016,LGE2016_boundary
+LIM354,Polokwane,Limpopo,2016,LGE2016_boundary
+LIM355,Lepele-Nkumpi,Limpopo,2016,LGE2016_boundary
+LIM361,Thabazimbi,Limpopo,2016,LGE2016_boundary
+LIM362,Lephalale,Limpopo,2016,LGE2016_boundary
+LIM366,Bela-Bela,Limpopo,2016,LGE2016_boundary
+LIM367,Mogalakwena,Limpopo,2016,LGE2016_boundary
+LIM368,Modimolle/Mookgopong,Limpopo,2016,LGE2016_boundary
+LIM471,Ephraim Mogale,Limpopo,2016,LGE2016_boundary
+LIM472,Elias Motsoaledi,Limpopo,2016,LGE2016_boundary
+LIM473,Makhuduthamaga,Limpopo,2016,LGE2016_boundary
+LIM476,Greater Tubatse/Fetakgomo,Limpopo,2016,LGE2016_boundary
+MP301,Chief Albert Luthuli,Mpumalanga,2016,LGE2016_boundary
+MP302,Msukaligwa,Mpumalanga,2016,LGE2016_boundary
+MP303,Mkhondo,Mpumalanga,2016,LGE2016_boundary
+MP304,Dr Pixley Ka Isaka Seme,Mpumalanga,2016,LGE2016_boundary
+MP305,Lekwa,Mpumalanga,2016,LGE2016_boundary
+MP306,Dipaleseng,Mpumalanga,2016,LGE2016_boundary
+MP307,Govan Mbeki,Mpumalanga,2016,LGE2016_boundary
+MP311,Victor Khanye,Mpumalanga,2016,LGE2016_boundary
+MP312,Emalahleni,Mpumalanga,2016,LGE2016_boundary
+MP313,Steve Tshwete,Mpumalanga,2016,LGE2016_boundary
+MP314,Emakhazeni,Mpumalanga,2016,LGE2016_boundary
+MP315,Thembisile Hani,Mpumalanga,2016,LGE2016_boundary
+MP316,Dr JS Moroka,Mpumalanga,2016,LGE2016_boundary
+MP321,Thaba Chweu,Mpumalanga,2016,LGE2016_boundary
+MP324,Nkomazi,Mpumalanga,2016,LGE2016_boundary
+MP325,Bushbuckridge,Mpumalanga,2016,LGE2016_boundary
+MP326,City of Mbombela,Mpumalanga,2016,LGE2016_boundary
+NW371,Moretele,North West,2016,LGE2016_boundary
+NW372,Madibeng,North West,2016,LGE2016_boundary
+NW373,Rustenburg,North West,2016,LGE2016_boundary
+NW374,Kgetlengrivier,North West,2016,LGE2016_boundary
+NW375,Moses Kotane,North West,2016,LGE2016_boundary
+NW381,Ratlou,North West,2016,LGE2016_boundary
+NW382,Tswaing,North West,2016,LGE2016_boundary
+NW383,Mafikeng,North West,2016,LGE2016_boundary
+NW384,Ditsobotla,North West,2016,LGE2016_boundary
+NW385,Ramotshere Moiloa,North West,2016,LGE2016_boundary
+NW392,Naledi,North West,2016,LGE2016_boundary
+NW393,Mamusa,North West,2016,LGE2016_boundary
+NW394,Greater Taung,North West,2016,LGE2016_boundary
+NW396,Lekwa-Teemane,North West,2016,LGE2016_boundary
+NW397,Ganyesa/Pomfret,North West,2016,LGE2016_boundary
+NW403,Matlosana,North West,2016,LGE2016_boundary
+NW404,Maquassi Hills,North West,2016,LGE2016_boundary
+NW405,JB Marks,North West,2016,LGE2016_boundary
+NC061,RICHTERSVELD,Northern Cape,2016,LGE2016_boundary
+NC062,NAMA KHOI,Northern Cape,2016,LGE2016_boundary
+NC064,KAMIESBERG,Northern Cape,2016,LGE2016_boundary
+NC065,HANTAM,Northern Cape,2016,LGE2016_boundary
+NC066,KAROO HOOGLAND,Northern Cape,2016,LGE2016_boundary
+NC067,KHI-MA,Northern Cape,2016,LGE2016_boundary
+NC071,UBUNTU,Northern Cape,2016,LGE2016_boundary
+NC072,UMSOBOMVU,Northern Cape,2016,LGE2016_boundary
+NC073,EMTHANJENI,Northern Cape,2016,LGE2016_boundary
+NC074,KAREEBERG,Northern Cape,2016,LGE2016_boundary
+NC075,RENOSTERBERG,Northern Cape,2016,LGE2016_boundary
+NC076,THEMBELIHLE,Northern Cape,2016,LGE2016_boundary
+NC077,SIYATHEMBA,Northern Cape,2016,LGE2016_boundary
+NC078,SIYANCUMA,Northern Cape,2016,LGE2016_boundary
+NC082,KAI !GARIB,Northern Cape,2016,LGE2016_boundary
+NC084,!KHEIS,Northern Cape,2016,LGE2016_boundary
+NC085,TSANTSABANE,Northern Cape,2016,LGE2016_boundary
+NC086,KGATELOPELE,Northern Cape,2016,LGE2016_boundary
+NC087,Dawid Kruiper,Northern Cape,2016,LGE2016_boundary
+NC091,Sol Plaatje,Northern Cape,2016,LGE2016_boundary
+NC092,Dikgatlong,Northern Cape,2016,LGE2016_boundary
+NC093,Magareng,Northern Cape,2016,LGE2016_boundary
+NC094,Phokwane,Northern Cape,2016,LGE2016_boundary
+NC451,Joe Morolong,Northern Cape,2016,LGE2016_boundary
+NC452,GA-SEGONYANA,Northern Cape,2016,LGE2016_boundary
+NC453,GAMAGARA,Northern Cape,2016,LGE2016_boundary
+CPT,CPT - City of Cape Town,Western Cape,2016,LGE2016_boundary
+WC011,Matzikama,Western Cape,2016,LGE2016_boundary
+WC012,Cederberg,Western Cape,2016,LGE2016_boundary
+WC013,Bergrivier,Western Cape,2016,LGE2016_boundary
+WC014,Saldanha Bay,Western Cape,2016,LGE2016_boundary
+WC015,Swartland,Western Cape,2016,LGE2016_boundary
+WC022,Witzenberg,Western Cape,2016,LGE2016_boundary
+WC023,Drakenstein,Western Cape,2016,LGE2016_boundary
+WC024,Stellenbosch,Western Cape,2016,LGE2016_boundary
+WC025,Breede Valley,Western Cape,2016,LGE2016_boundary
+WC026,Langeberg,Western Cape,2016,LGE2016_boundary
+WC031,Theewaterskloof,Western Cape,2016,LGE2016_boundary
+WC032,Overstrand,Western Cape,2016,LGE2016_boundary
+WC033,Cape Agulhas,Western Cape,2016,LGE2016_boundary
+WC034,Swellendam,Western Cape,2016,LGE2016_boundary
+WC041,Kannaland,Western Cape,2016,LGE2016_boundary
+WC042,Hessequa,Western Cape,2016,LGE2016_boundary
+WC043,Mossel Bay,Western Cape,2016,LGE2016_boundary
+WC044,George,Western Cape,2016,LGE2016_boundary
+WC045,Oudtshoorn,Western Cape,2016,LGE2016_boundary
+WC047,Bitou,Western Cape,2016,LGE2016_boundary
+WC048,Knysna,Western Cape,2016,LGE2016_boundary
+WC051,Laingsburg,Western Cape,2016,LGE2016_boundary
+WC052,Prince Albert,Western Cape,2016,LGE2016_boundary
+WC053,Beaufort West,Western Cape,2016,LGE2016_boundary
+BUF,BUF - Buffalo City,Eastern Cape,2021,LGE2021_boundary
+EC101,Dr. Beyers Naude,Eastern Cape,2021,LGE2021_boundary
+EC102,Blue Crane Route,Eastern Cape,2021,LGE2021_boundary
+EC104,Makana,Eastern Cape,2021,LGE2021_boundary
+EC105,Ndlambe,Eastern Cape,2021,LGE2021_boundary
+EC106,Sundays River Valley,Eastern Cape,2021,LGE2021_boundary
+EC108,Kouga,Eastern Cape,2021,LGE2021_boundary
+EC109,Kou-Kamma,Eastern Cape,2021,LGE2021_boundary
+EC121,Mbhashe,Eastern Cape,2021,LGE2021_boundary
+EC122,Mnquma,Eastern Cape,2021,LGE2021_boundary
+EC123,Great Kei,Eastern Cape,2021,LGE2021_boundary
+EC124,Amahlathi,Eastern Cape,2021,LGE2021_boundary
+EC126,Ngqushwa,Eastern Cape,2021,LGE2021_boundary
+EC129,Raymond Mhlaba,Eastern Cape,2021,LGE2021_boundary
+EC131,Inxuba Yethemba,Eastern Cape,2021,LGE2021_boundary
+EC135,Intsika Yethu,Eastern Cape,2021,LGE2021_boundary
+EC136,Emalahleni,Eastern Cape,2021,LGE2021_boundary
+EC137,Engcobo,Eastern Cape,2021,LGE2021_boundary
+EC138,Sakhisizwe,Eastern Cape,2021,LGE2021_boundary
+EC139,Enoch Mgijima,Eastern Cape,2021,LGE2021_boundary
+EC141,Elundini,Eastern Cape,2021,LGE2021_boundary
+EC142,Senqu,Eastern Cape,2021,LGE2021_boundary
+EC145,Walter Sisulu,Eastern Cape,2021,LGE2021_boundary
+EC153,Ngquza Hill,Eastern Cape,2021,LGE2021_boundary
+EC154,Port St Johns,Eastern Cape,2021,LGE2021_boundary
+EC155,Nyandeni,Eastern Cape,2021,LGE2021_boundary
+EC156,Mhlontlo,Eastern Cape,2021,LGE2021_boundary
+EC157,King Sabata Dalindyebo,Eastern Cape,2021,LGE2021_boundary
+EC441,Matatiele,Eastern Cape,2021,LGE2021_boundary
+EC442,Umzimvubu,Eastern Cape,2021,LGE2021_boundary
+EC443,Winnie Madikizela-Mandela,Eastern Cape,2021,LGE2021_boundary
+EC444,Ntabankulu,Eastern Cape,2021,LGE2021_boundary
+NMA,NMA - Nelson Mandela Bay,Eastern Cape,2021,LGE2021_boundary
+FS161,Letsemeng,Free State,2021,LGE2021_boundary
+FS162,Kopanong,Free State,2021,LGE2021_boundary
+FS163,Mohokare,Free State,2021,LGE2021_boundary
+FS181,Masilonyana,Free State,2021,LGE2021_boundary
+FS182,Tokologo,Free State,2021,LGE2021_boundary
+FS183,Tswelopele,Free State,2021,LGE2021_boundary
+FS184,Matjhabeng,Free State,2021,LGE2021_boundary
+FS185,Nala,Free State,2021,LGE2021_boundary
+FS191,Setsoto,Free State,2021,LGE2021_boundary
+FS192,Dihlabeng,Free State,2021,LGE2021_boundary
+FS193,Nketoana,Free State,2021,LGE2021_boundary
+FS194,Maluti a Phofung,Free State,2021,LGE2021_boundary
+FS195,Phumelela,Free State,2021,LGE2021_boundary
+FS196,Mantsopa,Free State,2021,LGE2021_boundary
+FS201,Moqhaka,Free State,2021,LGE2021_boundary
+FS203,Ngwathe,Free State,2021,LGE2021_boundary
+FS204,Metsimaholo,Free State,2021,LGE2021_boundary
+FS205,Mafube,Free State,2021,LGE2021_boundary
+MAN,MAN - Mangaung,Free State,2021,LGE2021_boundary
+COT,COT - City Of Tshwane,Gauteng,2021,LGE2021_boundary
+EKU,EKU - Ekurhuleni,Gauteng,2021,LGE2021_boundary
+GT421,Emfuleni,Gauteng,2021,LGE2021_boundary
+GT422,Midvaal,Gauteng,2021,LGE2021_boundary
+GT423,Lesedi,Gauteng,2021,LGE2021_boundary
+GT481,Mogale City,Gauteng,2021,LGE2021_boundary
+GT484,Merafong City,Gauteng,2021,LGE2021_boundary
+GT485,Rand West City,Gauteng,2021,LGE2021_boundary
+JHB,JHB - City of Johannesburg,Gauteng,2021,LGE2021_boundary
+ETH,ETH - eThekwini,KwaZulu-Natal,2021,LGE2021_boundary
+KZN212,uMdoni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN213,uMzumbe,KwaZulu-Natal,2021,LGE2021_boundary
+KZN214,uMuziwabantu,KwaZulu-Natal,2021,LGE2021_boundary
+KZN216,Ray Nkonyeni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN221,uMshwathi,KwaZulu-Natal,2021,LGE2021_boundary
+KZN222,uMngeni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN223,Mpofana,KwaZulu-Natal,2021,LGE2021_boundary
+KZN224,iMpendle,KwaZulu-Natal,2021,LGE2021_boundary
+KZN225,Msunduzi,KwaZulu-Natal,2021,LGE2021_boundary
+KZN226,Mkhambathini,KwaZulu-Natal,2021,LGE2021_boundary
+KZN227,Richmond,KwaZulu-Natal,2021,LGE2021_boundary
+KZN235,Okhahlamba,KwaZulu-Natal,2021,LGE2021_boundary
+KZN237,iNkosi Langalibalele,KwaZulu-Natal,2021,LGE2021_boundary
+KZN238,Alfred Duma,KwaZulu-Natal,2021,LGE2021_boundary
+KZN241,eNdumeni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN242,Nqutu,KwaZulu-Natal,2021,LGE2021_boundary
+KZN244,uMsinga,KwaZulu-Natal,2021,LGE2021_boundary
+KZN245,uMvoti,KwaZulu-Natal,2021,LGE2021_boundary
+KZN252,Newcastle,KwaZulu-Natal,2021,LGE2021_boundary
+KZN253,eMadlangeni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN254,Dannhauser,KwaZulu-Natal,2021,LGE2021_boundary
+KZN261,eDumbe,KwaZulu-Natal,2021,LGE2021_boundary
+KZN262,uPhongolo,KwaZulu-Natal,2021,LGE2021_boundary
+KZN263,AbaQulusi,KwaZulu-Natal,2021,LGE2021_boundary
+KZN265,Nongoma,KwaZulu-Natal,2021,LGE2021_boundary
+KZN266,Ulundi,KwaZulu-Natal,2021,LGE2021_boundary
+KZN271,uMhlabuyalingana,KwaZulu-Natal,2021,LGE2021_boundary
+KZN272,Jozini,KwaZulu-Natal,2021,LGE2021_boundary
+KZN275,Mtubatuba,KwaZulu-Natal,2021,LGE2021_boundary
+KZN276,Big Five Hlabisa,KwaZulu-Natal,2021,LGE2021_boundary
+KZN281,uMfolozi,KwaZulu-Natal,2021,LGE2021_boundary
+KZN282,uMhlathuze,KwaZulu-Natal,2021,LGE2021_boundary
+KZN284,uMlalazi,KwaZulu-Natal,2021,LGE2021_boundary
+KZN285,Mthonjaneni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN286,Nkandla,KwaZulu-Natal,2021,LGE2021_boundary
+KZN291,Mandeni,KwaZulu-Natal,2021,LGE2021_boundary
+KZN292,KwaDukuza,KwaZulu-Natal,2021,LGE2021_boundary
+KZN293,Ndwedwe,KwaZulu-Natal,2021,LGE2021_boundary
+KZN294,Maphumulo,KwaZulu-Natal,2021,LGE2021_boundary
+KZN433,Greater Kokstad,KwaZulu-Natal,2021,LGE2021_boundary
+KZN434,uBuhlebezwe,KwaZulu-Natal,2021,LGE2021_boundary
+KZN435,uMzimkhulu,KwaZulu-Natal,2021,LGE2021_boundary
+KZN436,Dr. Nkosazana Dlamini Zuma,KwaZulu-Natal,2021,LGE2021_boundary
+LIM331,Greater Giyani,Limpopo,2021,LGE2021_boundary
+LIM332,Greater Letaba,Limpopo,2021,LGE2021_boundary
+LIM333,Greater Tzaneen,Limpopo,2021,LGE2021_boundary
+LIM334,Ba-Phalaborwa,Limpopo,2021,LGE2021_boundary
+LIM335,Maruleng,Limpopo,2021,LGE2021_boundary
+LIM341,Musina,Limpopo,2021,LGE2021_boundary
+LIM343,Thulamela,Limpopo,2021,LGE2021_boundary
+LIM344,Makhado,Limpopo,2021,LGE2021_boundary
+LIM345,Collins Chabane,Limpopo,2021,LGE2021_boundary
+LIM351,Blouberg,Limpopo,2021,LGE2021_boundary
+LIM353,Molemole,Limpopo,2021,LGE2021_boundary
+LIM354,Polokwane,Limpopo,2021,LGE2021_boundary
+LIM355,Lepele-Nkumpi,Limpopo,2021,LGE2021_boundary
+LIM361,Thabazimbi,Limpopo,2021,LGE2021_boundary
+LIM362,Lephalale,Limpopo,2021,LGE2021_boundary
+LIM366,Bela-Bela,Limpopo,2021,LGE2021_boundary
+LIM367,Mogalakwena,Limpopo,2021,LGE2021_boundary
+LIM368,Modimolle-Mookgophong,Limpopo,2021,LGE2021_boundary
+LIM471,Ephraim Mogale,Limpopo,2021,LGE2021_boundary
+LIM472,Elias Motsoaledi,Limpopo,2021,LGE2021_boundary
+LIM473,Makhuduthamaga,Limpopo,2021,LGE2021_boundary
+LIM476,Fetakgomo Tubatse,Limpopo,2021,LGE2021_boundary
+MP301,Chief Albert Luthuli,Mpumalanga,2021,LGE2021_boundary
+MP302,Msukaligwa,Mpumalanga,2021,LGE2021_boundary
+MP303,Mkhondo,Mpumalanga,2021,LGE2021_boundary
+MP304,Dr Pixley Ka Isaka Seme,Mpumalanga,2021,LGE2021_boundary
+MP305,Lekwa,Mpumalanga,2021,LGE2021_boundary
+MP306,Dipaleseng,Mpumalanga,2021,LGE2021_boundary
+MP307,Govan Mbeki,Mpumalanga,2021,LGE2021_boundary
+MP311,Victor Khanye,Mpumalanga,2021,LGE2021_boundary
+MP312,Emalahleni,Mpumalanga,2021,LGE2021_boundary
+MP313,Steve Tshwete,Mpumalanga,2021,LGE2021_boundary
+MP314,Emakhazeni,Mpumalanga,2021,LGE2021_boundary
+MP315,Thembisile Hani,Mpumalanga,2021,LGE2021_boundary
+MP316,Dr JS Moroka,Mpumalanga,2021,LGE2021_boundary
+MP321,Thaba Chweu,Mpumalanga,2021,LGE2021_boundary
+MP324,Nkomazi,Mpumalanga,2021,LGE2021_boundary
+MP325,Bushbuckridge,Mpumalanga,2021,LGE2021_boundary
+MP326,City of Mbombela,Mpumalanga,2021,LGE2021_boundary
+NW371,Moretele,North West,2021,LGE2021_boundary
+NW372,Madibeng,North West,2021,LGE2021_boundary
+NW373,Rustenburg,North West,2021,LGE2021_boundary
+NW374,Kgetlengrivier,North West,2021,LGE2021_boundary
+NW375,Moses Kotane,North West,2021,LGE2021_boundary
+NW381,Ratlou,North West,2021,LGE2021_boundary
+NW382,Tswaing,North West,2021,LGE2021_boundary
+NW383,Mafikeng,North West,2021,LGE2021_boundary
+NW384,Ditsobotla,North West,2021,LGE2021_boundary
+NW385,Ramotshere Moiloa,North West,2021,LGE2021_boundary
+NW392,Naledi,North West,2021,LGE2021_boundary
+NW393,Mamusa,North West,2021,LGE2021_boundary
+NW394,Greater Taung,North West,2021,LGE2021_boundary
+NW396,Lekwa-Teemane,North West,2021,LGE2021_boundary
+NW397,Ganyesa/Pomfret,North West,2021,LGE2021_boundary
+NW403,Matlosana,North West,2021,LGE2021_boundary
+NW404,Maquassi Hills,North West,2021,LGE2021_boundary
+NW405,JB Marks,North West,2021,LGE2021_boundary
+NC061,RICHTERSVELD,Northern Cape,2021,LGE2021_boundary
+NC062,NAMA KHOI,Northern Cape,2021,LGE2021_boundary
+NC064,KAMIESBERG,Northern Cape,2021,LGE2021_boundary
+NC065,HANTAM,Northern Cape,2021,LGE2021_boundary
+NC066,KAROO HOOGLAND,Northern Cape,2021,LGE2021_boundary
+NC067,KHaI-MA,Northern Cape,2021,LGE2021_boundary
+NC071,UBUNTU,Northern Cape,2021,LGE2021_boundary
+NC072,UMSOBOMVU,Northern Cape,2021,LGE2021_boundary
+NC073,EMTHANJENI,Northern Cape,2021,LGE2021_boundary
+NC074,KAREEBERG,Northern Cape,2021,LGE2021_boundary
+NC075,RENOSTERBERG,Northern Cape,2021,LGE2021_boundary
+NC076,THEMBELIHLE,Northern Cape,2021,LGE2021_boundary
+NC077,SIYATHEMBA,Northern Cape,2021,LGE2021_boundary
+NC078,SIYANCUMA,Northern Cape,2021,LGE2021_boundary
+NC082,KAI !GARIB,Northern Cape,2021,LGE2021_boundary
+NC084,!KHEIS,Northern Cape,2021,LGE2021_boundary
+NC085,TSANTSABANE,Northern Cape,2021,LGE2021_boundary
+NC086,KGATELOPELE,Northern Cape,2021,LGE2021_boundary
+NC087,Dawid Kruiper,Northern Cape,2021,LGE2021_boundary
+NC091,Sol Plaatje,Northern Cape,2021,LGE2021_boundary
+NC092,Dikgatlong,Northern Cape,2021,LGE2021_boundary
+NC093,Magareng,Northern Cape,2021,LGE2021_boundary
+NC094,Phokwane,Northern Cape,2021,LGE2021_boundary
+NC451,Joe Morolong,Northern Cape,2021,LGE2021_boundary
+NC452,GA-SEGONYANA,Northern Cape,2021,LGE2021_boundary
+NC453,GAMAGARA,Northern Cape,2021,LGE2021_boundary
+CPT,CPT - City of Cape Town,Western Cape,2021,LGE2021_boundary
+WC011,Matzikama,Western Cape,2021,LGE2021_boundary
+WC012,Cederberg,Western Cape,2021,LGE2021_boundary
+WC013,Bergrivier,Western Cape,2021,LGE2021_boundary
+WC014,Saldanha Bay,Western Cape,2021,LGE2021_boundary
+WC015,Swartland,Western Cape,2021,LGE2021_boundary
+WC022,Witzenberg,Western Cape,2021,LGE2021_boundary
+WC023,Drakenstein,Western Cape,2021,LGE2021_boundary
+WC024,Stellenbosch,Western Cape,2021,LGE2021_boundary
+WC025,Breede Valley,Western Cape,2021,LGE2021_boundary
+WC026,Langeberg,Western Cape,2021,LGE2021_boundary
+WC031,Theewaterskloof,Western Cape,2021,LGE2021_boundary
+WC032,Overstrand,Western Cape,2021,LGE2021_boundary
+WC033,Cape Agulhas,Western Cape,2021,LGE2021_boundary
+WC034,Swellendam,Western Cape,2021,LGE2021_boundary
+WC041,Kannaland,Western Cape,2021,LGE2021_boundary
+WC042,Hessequa,Western Cape,2021,LGE2021_boundary
+WC043,Mossel Bay,Western Cape,2021,LGE2021_boundary
+WC044,George,Western Cape,2021,LGE2021_boundary
+WC045,Oudtshoorn,Western Cape,2021,LGE2021_boundary
+WC047,Bitou,Western Cape,2021,LGE2021_boundary
+WC048,Knysna,Western Cape,2021,LGE2021_boundary
+WC051,Laingsburg,Western Cape,2021,LGE2021_boundary
+WC052,Prince Albert,Western Cape,2021,LGE2021_boundary
+WC053,Beaufort West,Western Cape,2021,LGE2021_boundary
+Bushbuckridge Local Municipality (MP325),Bushbuckridge,Mpumalanga,2026,MDB2026_boundary
+Chief Albert Luthuli Local Municipality (MP301),Chief Albert Luthuli,Mpumalanga,2026,MDB2026_boundary
+City of Mbombela Local Municipality (MP326),City of Mbombela,Mpumalanga,2026,MDB2026_boundary
+Dipaleseng Local Municipality (MP306),Dipaleseng,Mpumalanga,2026,MDB2026_boundary
+Dr JS Moroka Local Municipality (MP316),Dr JS Moroka,Mpumalanga,2026,MDB2026_boundary
+Dr Pixley Ka Isaka Seme Local Municipality (MP304),Dr Pixley Ka Isaka Seme,Mpumalanga,2026,MDB2026_boundary
+Emakhazeni Local Municipality (MP314),Emakhazeni,Mpumalanga,2026,MDB2026_boundary
+Emalahleni Local Municipality (MP312),Emalahleni,Mpumalanga,2026,MDB2026_boundary
+Govan Mbeki Local Municipality (MP307),Govan Mbeki,Mpumalanga,2026,MDB2026_boundary
+Lekwa Local Municipality (MP305),Lekwa,Mpumalanga,2026,MDB2026_boundary
+Mkhondo Local Municipality (MP303),Mkhondo,Mpumalanga,2026,MDB2026_boundary
+Msukaligwa Local Municipality (MP302),Msukaligwa,Mpumalanga,2026,MDB2026_boundary
+Nkomazi Local Municipality (MP324),Nkomazi,Mpumalanga,2026,MDB2026_boundary
+Steve Tshwete Local Municipality (MP313),Steve Tshwete,Mpumalanga,2026,MDB2026_boundary
+Thaba Chweu Local Municipality (MP321),Thaba Chweu,Mpumalanga,2026,MDB2026_boundary
+Thembisile Hani Local Municipality (MP315),Thembisile Hani,Mpumalanga,2026,MDB2026_boundary
+Victor Khanye Local Municipality (MP311),Victor Khanye,Mpumalanga,2026,MDB2026_boundary

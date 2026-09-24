@@ -42,57 +42,53 @@ Turnout in Mpumalanga's local government elections fell from **56.4% in 2016 to 
 ## Repository layout
 
 ```
-model.ipynb                  the full pipeline (every cell has WHAT / WHY / HOW TO READ comments)
-requirements.txt             exact package versions (Python 3.13)
-metadata/
-  README.md                  data rules: Census usage rules, Stage 2-4 notes, limitations
-  source_registry.csv        every source: origin, date, grain, limitations, status
-  data_dictionary.csv        variable definitions
-  geography_crosswalk.csv    municipality code/name decisions (e.g. MP314 = Emakhazeni)
-  census2022_household_codebook_derived.csv   Census code -> label for every household variable
-  census2022_docs/           official Stats SA Census 2022 10% sample metadata (PDF)
+model.ipynb                  the full pipeline, Stages 1-5 (every cell has WHAT / WHY / HOW TO READ comments)
+requirements.txt             pinned package versions (Python 3.11-3.13)
 DATASETS/
-  LGE2011/MP_2011.csv, LGE2016_MP/MP_2016.csv, LGE2021_MP/MP_2021.csv   IEC detailed results, Mpumalanga
-  IEC_official_turnout/      IEC official Mpumalanga turnout reports (reconciliation)
-  voter_turnout/             provincial-election turnout per municipality 2004-2024 (compiled from IEC municipal reports)
-  AGSA_audit_opinions/       Auditor-General audit outcomes (National Treasury Municipal Money API)
-  2026 Registered voters.xlsx, youth_registration_variables_national.csv   2026 registration (IEC)
-  iec_2026_registration_press_figures.csv   sourced IEC press figures (context only)
+  iec_results/
+    local_elections/         IEC detailed results, Mpumalanga: MP_LGE_2011.csv, MP_LGE_2016.csv, MP_LGE_2021.csv
+    official_turnout_reports/  IEC official Mpumalanga turnout reports 2011/2016/2021 (reconciliation)
+    provincial_elections/    provincial-election turnout per municipality 2004-2024 (+ 2019 IEC report)
+    LGE_All_Sources_Master_721327_Rows.csv   team baseline 2000-2021 (unpacked from compressed/)
+  iec_registration/          2026 registered voters workbook; 2026 dashboard extract by municipality, age, gender
+  census2022/                Census 2022 combined household file + raw/ F18, F21 (unpacked from compressed/)
+  auditor_general/           Auditor-General audit outcomes (National Treasury Municipal Money API)
+  reference/                 context-only files (IEC press figures, VAP 2000-2016, municipal codes, national age tables)
+  compressed/                the 4 large inputs as zip files (each under GitHub's 100 MB limit)
+metadata/                    source registry, data dictionary, geography crosswalk, Census codebook and Stats SA metadata
 derived/                     outputs rebuilt by the notebook (panels, features, forecasts, priority list, figures/, models/)
+docs/                        competition brief, Day 1 problem statement, planning documents, references
 ```
 
 ## Data sources
 
-| Source | Used for | In this repo? |
+| Source | Used for | Where |
 |---|---|---|
-| IEC detailed LGE results 2011, 2016, 2021 (Mpumalanga), [results.elections.org.za](https://results.elections.org.za/home/downloads/me-results) | Turnout history per voting district | Yes |
-| Team baseline `LGE_All_Sources_Master_721327_Rows.csv` (IEC results 2000-2021) | 2000 and 2006 results; cross-check of 2011-2021 | **No** (464 MB) |
-| IEC official Mpumalanga turnout reports 2011/2016/2021 (from the challenge zip) | Reconciliation | Yes |
-| IEC provincial-election turnout per municipality 2004, 2009, 2014, 2019, 2024 | Recent turnout signal (feature) | Yes |
-| IEC voter registration dashboard, [elections.org.za](https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics), as of 23 Sep 2026 | 2026 registration by municipality, age, gender | Yes |
-| Stats SA Census 2022 10% sample (F18 geography, F19 households, F21 persons), [ISIbalo](https://isibaloweb.statssa.gov.za/pages/surveys/pss/censuses/2022/census2022.php) | Living conditions; eligible adult citizens | **No** (over 100 MB) |
-| Auditor-General audit outcomes via National Treasury [Municipal Money](https://municipaldata.treasury.gov.za) API (`audit_opinions`, downloaded 24 Sep 2026) | Municipal performance score | Yes |
-| IEC statements via ITWeb, Joburg ETC, Independent on Saturday, GroundUp (see `iec_2026_registration_press_figures.csv` for every URL) | Context: online registration, national youth turnout | Yes |
+| IEC detailed LGE results 2011, 2016, 2021 (Mpumalanga), [results.elections.org.za](https://results.elections.org.za/home/downloads/me-results) | Turnout history per voting district | `DATASETS/iec_results/local_elections/` |
+| Team baseline (IEC results 2000-2021) | 2000 and 2006 results; cross-check of 2011-2021 | zipped in `DATASETS/compressed/` |
+| IEC official Mpumalanga turnout reports 2011/2016/2021 | Reconciliation | `DATASETS/iec_results/official_turnout_reports/` |
+| IEC provincial-election turnout per municipality 2004, 2009, 2014, 2019, 2024 | Recent turnout signal (feature) | `DATASETS/iec_results/provincial_elections/` |
+| IEC voter registration dashboard, [elections.org.za](https://www.elections.org.za/pw/StatsData/Voter-Registration-Statistics), as of 23 Sep 2026 | 2026 registration by municipality, age, gender | `DATASETS/iec_registration/` |
+| Stats SA Census 2022 10% sample (F18 geography, F19 households, F21 persons), [ISIbalo](https://isibaloweb.statssa.gov.za/pages/surveys/pss/censuses/2022/census2022.php) | Living conditions, education, eligible adult citizens | zipped in `DATASETS/compressed/` |
+| Auditor-General audit outcomes via National Treasury [Municipal Money](https://municipaldata.treasury.gov.za) API (`audit_opinions`, downloaded 24 Sep 2026) | Municipal performance score | `DATASETS/auditor_general/` |
+| IEC statements via ITWeb, Joburg ETC, Independent on Saturday, GroundUp (every URL in the file) | Context: online registration, national youth turnout | `DATASETS/reference/iec_2026_registration_press_figures.csv` |
 
-### Data not in this repository
+## How to run (any computer)
 
-GitHub rejects files over 100 MB. Before running the notebook, place these files locally:
-
-| File | Where it goes | How to get it |
-|---|---|---|
-| `LGE_All_Sources_Master_721327_Rows.csv` | project root | Team shared drive (team-built from IEC results) |
-| `DIRISA_Election_Challenge.zip` | project root | Challenge data pack |
-| `Census2022sample_F18.csv`, `_F19.csv`, `_F21.csv` | `DATASETS/Census2022_raw/` | Extract from `DIRISA_Election_Challenge.zip` (`data/raw/demographics/`) |
-| `Census2022_F18_F19_Combined_full.csv` | `DATASETS/` | F18 and F19 joined one-to-one on `QID` (1,338,295 households); see `metadata/README.md` |
-
-## How to run
-
-```powershell
-python -m venv .venv                      # Python 3.13
-.venv\Scripts\python.exe -m pip install -r requirements.txt
+```bash
+git clone https://github.com/jaydenmanca/DIRISA_PROJECT.git
+cd DIRISA_PROJECT
+python -m venv .venv                                  # Python 3.11-3.13
+# Windows:        .venv\Scripts\python.exe -m pip install -r requirements.txt
+# macOS / Linux:  .venv/bin/python -m pip install -r requirements.txt
 ```
 
-Open `model.ipynb` in VS Code. The included `.vscode/settings.json` points VS Code at `.venv`; if the kernel shown is not `.venv\Scripts\python.exe`, choose it under *Select Another Kernel → Python Environments* (cell 1.1 stops with instructions if the wrong Python is selected). Then **Restart** and **Run All**. The whole notebook takes about 5-6 minutes. Cell 1.5 loads a 487 MB file and takes about 1.5 minutes: let it finish. Every derived table and figure is written to `derived/`.
+Open `model.ipynb` in VS Code (or Jupyter), select the `.venv` kernel, then **Restart** and **Run All**.
+
+- **No manual data download is needed.** Cell 1.3 unpacks the four large inputs from `DATASETS/compressed/` on the first run (about 1-2 minutes, once).
+- Cell 1.1 checks that the required packages are installed and tells you exactly what to install if not.
+- The whole notebook takes about 5-6 minutes. Cell 1.6 loads a 487 MB file (about 1.5 minutes): let it finish.
+- Every derived table, figure and the trained model are written to `derived/`.
 
 ## Findings
 

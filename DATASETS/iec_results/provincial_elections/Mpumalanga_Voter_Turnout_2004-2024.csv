@@ -1,0 +1,97 @@
+year,event,code,name,town,cur,pop,reg,votes,note,src
+2004,14 Apr 2004 Provincial Election,CBDMA3,Schuinsdraai Nature Reserve,,Not in 2024 list,25,25,0,Cross-boundary municipality (2004); District Management Area; No completed results,MP_1.xls
+2004,14 Apr 2004 Provincial Election,CBDMA4,Kruger Park,,Not in 2024 list,2556,2556,1776,Cross-boundary municipality (2004); District Management Area,MP_1.xls
+2004,14 Apr 2004 Provincial Election,CBLC2,Kungwini,Bronkhorstspruit,Not in 2024 list,17599,17599,13442,Cross-boundary municipality (2004),MP_1.xls
+2004,14 Apr 2004 Provincial Election,CBLC3,Greater Marble Hall,Marble Hall,Not in 2024 list,21840,21840,15982,Cross-boundary municipality (2004),MP_1.xls
+2004,14 Apr 2004 Provincial Election,CBLC4,Greater Groblersdal,Groblersdal,Not in 2024 list,60872,60872,45996,Cross-boundary municipality (2004),MP_1.xls
+2004,14 Apr 2004 Provincial Election,CBLC5,Greater Tubatse,Burgersfort/Ohrigstad/Eastern Tubatse,Not in 2024 list,13897,13897,10660,Cross-boundary municipality (2004),MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP301,Albert Luthuli,Elukwatini/Carolina,Chief Albert Luthuli,78379,78379,63014,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP302,Msukaligwa,Ermelo,Msukaligwa,57159,57159,45802,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP303,Mkhondo,Piet Retief,Mkhondo,54546,54546,41288,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP304,Seme,Volksrust,Dr Pixley Ka Isaka Seme,34008,34008,26277,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP305,Lekwa,Standerton,Lekwa,46125,46125,36292,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP306,Dipaleseng,Balfour,Dipaleseng,18778,18778,14466,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP307,Highveld East,Highveld Ridge,Govan Mbeki,121005,121005,92491,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP311,Delmas,Delmas,Victor Khanye,25051,25051,19157,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP312,Emalahleni,Witbank,Emalahleni,148186,148186,112342,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP313,Steve Tshwete,Middelburg,Steve Tshwete,85305,85305,65065,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP314,Highlands,Belfast,Emakhazeni,22685,22685,17923,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP315,Thembisile,KwaMhlanga,Thembisile Hani,115824,115824,90570,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP316,Dr JS Moroka,Mdutjana,Dr JS Moroka,110277,110277,82879,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP321,Thaba Chweu,Sabie,Thaba Chweu,40607,40607,30027,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP322,Mbombela,Nelspruit,City of Mbombela (MP326),219063,219063,180221,Merged into MP326 City of Mbombela in 2016,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP323,Umjindi,Barberton,City of Mbombela (MP326),25964,25964,21541,Merged into MP326 City of Mbombela in 2016,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MP324,Nkomazi,Nkomazi,Nkomazi,121241,121241,101167,,MP_1.xls
+2004,14 Apr 2004 Provincial Election,MPDMA31,Mdala Nature Reserve,,Not in 2024 list,17,17,43,"District Management Area; Votes exceed registered voters, as in source",MP_1.xls
+2004,14 Apr 2004 Provincial Election,MPDMA32,DMA Lowveld,,Not in 2024 list,1460,1460,1063,District Management Area,MP_1.xls
+2009,22 Apr 2009 Provincial Election,MP301,Albert Luthuli,Elukwatini/Carolina,Chief Albert Luthuli,81994,81994,64224,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP302,Msukaligwa,Ermelo,Msukaligwa,62361,62361,51491,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP303,Mkhondo,Piet Retief,Mkhondo,62921,62921,48241,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP304,Pixley Ka Seme,Volksrust,Dr Pixley Ka Isaka Seme,34221,34221,25853,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP305,Lekwa,Standerton,Lekwa,49080,49080,39176,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP306,Dipaleseng,Balfour,Dipaleseng,19317,19317,14942,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP307,Govan Mbeki,Highveld Ridge,Govan Mbeki,132881,132881,103915,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP311,Delmas,Delmas,Victor Khanye,28353,28353,22349,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP312,Emalahleni,Witbank,Emalahleni,167288,167288,130258,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP313,Steve Tshwete,Middelburg,Steve Tshwete,96548,96548,75801,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP314,Emakhazeni,Belfast,Emakhazeni,24367,24367,19137,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP315,Thembisile,KwaMhlanga,Thembisile Hani,134348,134348,102341,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP316,Dr JS Moroka,Mdutjana,Dr JS Moroka,117328,117328,79712,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP321,Thaba Chweu,Sabie,Thaba Chweu,44639,44639,33393,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP322,Mbombela,Nelspruit,City of Mbombela (MP326),250469,250469,209657,Merged into MP326 City of Mbombela in 2016,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP323,Umjindi,Barberton,City of Mbombela (MP326),28619,28619,23574,Merged into MP326 City of Mbombela in 2016,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP324,Nkomazi,Nkomazi,Nkomazi,142860,142860,115797,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MP325,Bushbuckridge,Bushbuckridge,Bushbuckridge,216782,216782,155154,,MP_Provincial_Turnout_2019.xls
+2009,22 Apr 2009 Provincial Election,MPDMA32,Kruger Park,,Not in 2024 list,2329,2329,1879,District Management Area,MP_Provincial_Turnout_2019.xls
+2014,2014 PROVINCIAL ELECTION,MP301,Albert Luthuli,Elukwatini/Carolina,Chief Albert Luthuli,89555,89555,66799,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP302,Msukaligwa,Ermelo,Msukaligwa,69635,66856,52104,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP303,Mkhondo,Piet Retief,Mkhondo,69135,69135,51243,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP304,Pixley Ka Seme,Volksrust,Dr Pixley Ka Isaka Seme,37049,37049,27140,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP305,Lekwa,Standerton,Lekwa,52529,52529,39477,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP306,Dipaleseng,Balfour,Dipaleseng,20917,20917,15314,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP307,Govan Mbeki,Highveld Ridge,Govan Mbeki,141828,141828,104872,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP311,Delmas,Delmas,Victor Khanye,32028,32028,24143,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP312,Emalahleni,Witbank,Emalahleni,185006,185006,138640,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP313,Steve Tshwete,Middelburg,Steve Tshwete,107877,107877,81189,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP314,Emakhazeni,Belfast,Emakhazeni,26529,26529,19717,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP315,Thembisile,KwaMhlanga,Thembisile Hani,150477,150477,106330,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP316,Dr JS Moroka,Mdutjana,Dr JS Moroka,125671,125671,81003,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP321,Thaba Chweu,Sabie,Thaba Chweu,49943,49943,34536,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP322,Mbombela,Nelspruit,City of Mbombela (MP326),274582,274582,213791,Merged into MP326 City of Mbombela in 2016,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP323,Umjindi,Barberton,City of Mbombela (MP326),31893,31893,24524,Merged into MP326 City of Mbombela in 2016,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP324,Nkomazi,Nkomazi,Nkomazi,159530,159530,122052,,MP_3.xls
+2014,2014 PROVINCIAL ELECTION,MP325,Bushbuckridge,Bushbuckridge,Bushbuckridge,236650,236650,149810,,MP_3.xls
+2019,2019 PROVINCIAL ELECTION,MP301,Chief Albert Luthuli,,Chief Albert Luthuli,94684,94684,60029,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP302,Msukaligwa,,Msukaligwa,71277,71277,47537,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP303,Mkhondo,,Mkhondo,73043,73043,45326,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP304,Dr Pixley Ka Isaka Seme,,Dr Pixley Ka Isaka Seme,38715,38715,24259,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP305,Lekwa,,Lekwa,52781,52781,34068,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP306,Dipaleseng,,Dipaleseng,21435,21435,13696,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP307,Govan Mbeki,,Govan Mbeki,146166,146166,93395,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP311,Victor Khanye,,Victor Khanye,33904,33904,22055,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP312,Emalahleni,,Emalahleni,190747,190747,124852,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP313,Steve Tshwete,,Steve Tshwete,111744,111744,73307,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP314,Emakhazeni,,Emakhazeni,26857,26857,17735,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP315,Thembisile Hani,,Thembisile Hani,156449,156449,93931,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP316,Dr JS Moroka,,Dr JS Moroka,129040,129040,69075,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP321,Thaba Chweu,,Thaba Chweu,51918,51918,31436,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP324,Nkomazi,,Nkomazi,174242,174242,115654,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP325,Bushbuckridge,,Bushbuckridge,251680,251680,140203,,MP_Provincial_Turnout_2019.xls
+2019,2019 PROVINCIAL ELECTION,MP326,City of Mbombela,,City of Mbombela,327094,327094,226986,,MP_Provincial_Turnout_2019.xls
+2024,2024 PROVINCIAL ELECTION,MP301,Chief Albert Luthuli,,Chief Albert Luthuli,98284,98284,57537,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP302,Msukaligwa,,Msukaligwa,73279,73279,44722,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP303,Mkhondo,,Mkhondo,75890,75890,45446,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP304,Dr Pixley Ka Isaka Seme,,Dr Pixley Ka Isaka Seme,40060,40060,24223,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP305,Lekwa,,Lekwa,53036,53036,31341,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP306,Dipaleseng,,Dipaleseng,21965,21965,12850,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP307,Govan Mbeki,,Govan Mbeki,148113,148113,87137,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP311,Victor Khanye,,Victor Khanye,36844,36844,21115,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP312,Emalahleni,,Emalahleni,203797,203797,117674,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP313,Steve Tshwete,,Steve Tshwete,115837,115837,66963,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP314,Emakhazeni,,Emakhazeni,27165,27165,15921,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP315,Thembisile Hani,,Thembisile Hani,161051,161051,90680,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP316,Dr JS Moroka,,Dr JS Moroka,128129,128129,65257,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP321,Thaba Chweu,,Thaba Chweu,53599,53599,27561,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP324,Nkomazi,,Nkomazi,183039,183039,109941,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP325,Bushbuckridge,,Bushbuckridge,265840,265840,137296,,MP_5.xls
+2024,2024 PROVINCIAL ELECTION,MP326,City of Mbombela,,City of Mbombela,339142,339142,200147,,MP_5.xls
