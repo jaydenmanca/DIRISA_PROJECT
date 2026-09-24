@@ -1,0 +1,85 @@
+{
+  "chosen_model": "Gradient boosting",
+  "features": [
+    "vd_turnout_lag1",
+    "vd_turnout_lag2",
+    "vd_turnout_change_lag",
+    "vd_registered_lag1_log",
+    "vd_spoilt_pct_lag1",
+    "muni_turnout_lag1",
+    "muni_turnout_lag2",
+    "province_turnout_lag1",
+    "muni_roll_growth_pct",
+    "years_since_previous",
+    "muni_audit_score_last",
+    "muni_audit_score_3yr",
+    "muni_npe_turnout_last",
+    "muni_npe_change_pp",
+    "c22_internet_any_pct",
+    "c22_internet_at_home_pct",
+    "c22_computer_pct",
+    "c22_motor_car_pct",
+    "c22_piped_water_in_yard_pct",
+    "c22_electricity_lighting_pct",
+    "c22_flush_toilet_pct",
+    "c22_refuse_weekly_pct",
+    "c22_informal_dwelling_pct",
+    "c22_rdp_house_pct",
+    "c22_adult_hunger_pct",
+    "c22_female_headed_pct",
+    "c22_urban_pct",
+    "c22_traditional_pct",
+    "c22_farms_pct",
+    "c22_mean_household_size",
+    "c22_matric_or_higher_pct",
+    "c22_higher_education_pct",
+    "c22_no_schooling_pct",
+    "c22_youth_matric_or_higher_pct",
+    "c22_youth_share_of_adults_pct"
+  ],
+  "trained_on_target_years": [
+    2006,
+    2011,
+    2016,
+    2021
+  ],
+  "backtest_average": [
+    {
+      "model": "Same as last election",
+      "muni_MAE_pp": 7.787,
+      "muni_bias_pp": 7.466,
+      "muni_rank_rho": 0.538,
+      "lowest5_found": 3.0,
+      "vd_MAE_pp": 10.488
+    },
+    {
+      "model": "Ridge regression",
+      "muni_MAE_pp": 9.16,
+      "muni_bias_pp": 0.032,
+      "muni_rank_rho": 0.473,
+      "lowest5_found": 3.0,
+      "vd_MAE_pp": 10.359
+    },
+    {
+      "model": "Gradient boosting",
+      "muni_MAE_pp": 6.661,
+      "muni_bias_pp": 6.199,
+      "muni_rank_rho": 0.507,
+      "lowest5_found": 3.0,
+      "vd_MAE_pp": 9.319
+    }
+  ],
+  "interval_80_error_pp": [
+    -0.549,
+    14.645
+  ],
+  "mpumalanga_turnout_2026_forecast_pct": 46.18,
+  "priority_weights": {
+    "low_turnout_forecast": 0.35,
+    "youth_gap": 0.25,
+    "low_registration": 0.2,
+    "weak_audit": 0.2
+  },
+  "profiles_k": 2,
+  "created": "2026-09-24T16:01:57+00:00"
+}

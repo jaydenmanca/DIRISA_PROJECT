@@ -14,7 +14,8 @@ Turnout in Mpumalanga's local government elections fell from **56.4% in 2016 to 
 |---|---|---|
 | A | Turnout forecast (machine learning, backtested on 2016 and 2021 against "same as last election") | Which areas are most at risk of low turnout in 2026 |
 | B | Registration gap vs turnout gap (calculated) | Is the problem registration, or voting? |
-| C | Participation profiles and a transparent priority list | Where youth, low turnout and weak municipal performance overlap |
+| C | Socio-economic factors (rank correlations; model feature importance) | Which living conditions, education levels and audit records go with low participation |
+| D | Participation profiles and a transparent priority list | Where youth, low turnout and weak municipal performance overlap |
 
 ## Status
 
@@ -22,10 +23,10 @@ Turnout in Mpumalanga's local government elections fell from **56.4% in 2016 to 
 |---|---|---|
 | 1 | Environment, metadata, source checks, raw ingestion | Done |
 | 2 | Mpumalanga election panel 2000-2021 (voting district x election x ballot), 2021 boundaries, reconciliation with IEC; provincial-election turnout 2004-2024 | Done |
-| 3 | Census 2022 indicators, registration denominators, Auditor-General audit outcomes | Done |
-| 4 | Exploratory analysis (6 figures) and feature engineering (30 leakage-checked features) | Done |
-| 5 | Models: turnout forecast, gap breakdown, profiles and priority list | Next |
-| 6 | Dashboard (Streamlit) | To do |
+| 3 | Census 2022 living conditions, education and age structure, registration rates, Auditor-General audit outcomes | Done |
+| 4 | Exploratory analysis (6 figures) and feature engineering (leakage-checked features) | Done |
+| 5 | Models: turnout forecast (A), registration vs turnout gap (B), socio-economic factors (C), profiles and priority list (D); limitations and references | Done |
+| 6 | Dashboard (Streamlit) | Next |
 
 ## Team decisions
 
@@ -57,7 +58,7 @@ DATASETS/
   AGSA_audit_opinions/       Auditor-General audit outcomes (National Treasury Municipal Money API)
   2026 Registered voters.xlsx, youth_registration_variables_national.csv   2026 registration (IEC)
   iec_2026_registration_press_figures.csv   sourced IEC press figures (context only)
-derived/                     outputs rebuilt by the notebook (panels, features, figures/)
+derived/                     outputs rebuilt by the notebook (panels, features, forecasts, priority list, figures/, models/)
 ```
 
 ## Data sources
@@ -91,9 +92,17 @@ python -m venv .venv                      # Python 3.13
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Open `model.ipynb` in VS Code. The included `.vscode/settings.json` points VS Code at `.venv`; if the kernel shown is not `.venv\Scripts\python.exe`, choose it under *Select Another Kernel → Python Environments* (cell 1.1 stops with instructions if the wrong Python is selected). Then **Restart** and **Run All**. The whole notebook takes about 3-4 minutes. Cell 1.5 loads a 487 MB file and takes about 1.5 minutes: let it finish. Every derived table and figure is written to `derived/`.
+Open `model.ipynb` in VS Code. The included `.vscode/settings.json` points VS Code at `.venv`; if the kernel shown is not `.venv\Scripts\python.exe`, choose it under *Select Another Kernel → Python Environments* (cell 1.1 stops with instructions if the wrong Python is selected). Then **Restart** and **Run All**. The whole notebook takes about 5-6 minutes. Cell 1.5 loads a 487 MB file and takes about 1.5 minutes: let it finish. Every derived table and figure is written to `derived/`.
 
-## Findings so far (Stages 1-4)
+## Findings
+
+**Model results (Stage 5)**
+- **Part A, turnout forecast:** gradient boosting beat the "same as last election" rule in the backtests (average municipal error 6.7 vs 7.8 percentage points; 1.6 points when predicting 2016). Every method predicted 2021 too high, because the 2021 collapse could not be foreseen from earlier elections. The model relies mostly on turnout history. **Mpumalanga 2026 forecast: 46.2%** (2021: 42.8%). Backtests suggest actual turnout tends to land at or below the forecast (80% range: -14.6 to +0.5 points).
+- **Part B, registration vs turnout gap:** in 11 of 17 municipalities more eligible citizens are lost to *not being registered* than to *registered but not voting* (2021).
+- **Part C, socio-economic factors** (17 municipalities, association not cause): municipalities with a younger adult population have lower registration (rho -0.78). Internet, computer and car ownership go with higher registration (+0.64 to +0.66). Adult hunger goes with a lower share of eligible citizens voting (-0.55).
+- **Part D, priority list:** top 5 are MP312 Emalahleni, MP307 Govan Mbeki, MP313 Steve Tshwete, MP302 Msukaligwa and MP326 City of Mbombela. The ranking is stable under other weightings (rank correlation 0.80-0.95).
+
+**Data findings (Stages 1-4)**
 
 - **Data quality:** the original IEC files and the team baseline agree exactly for 2011-2021. The official IEC Mpumalanga turnout reports are reproduced exactly for 18/18 municipalities (2011), 17/17 (2016) and 16/17 (2021).
 - **Turnout:** 44.3% (2000), 46.6% (2006), 55.9% (2011), 56.4% (2016), **42.8% (2021)**.
@@ -107,6 +116,9 @@ Open `model.ipynb` in VS Code. The included `.vscode/settings.json` points VS Co
 - About 16.5% of Census households left the household-goods, internet and hunger questions unanswered (6-35% by municipality). Rates use answering households only, with the answer rate shown.
 - Online-registration and age-level turnout figures exist only nationally or provincially, so they are used as context, not as model inputs. There is no municipal youth registration history before 2026.
 - Census 2022 is a later snapshot when used as context for the 2006-2021 elections.
+- The Census 10% sample identifies municipalities only, so socio-economic factors vary across 17 places; employment and income were withheld by Stats SA.
+- Only two backtests are possible, and one of them is the 2021 collapse, so the forecast's error range is a rough guide.
+- Ward councillor, party registration and by-election data were not downloadable from the IEC during the project.
 - One 2000 record (Mdala Nature Reserve) has spoilt votes recorded as NULL at source (set to 0). MP325's 2021 official turnout report differs slightly from the detailed results file.
 
 ## Submission

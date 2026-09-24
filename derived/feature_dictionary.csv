@@ -13,6 +13,7 @@ muni_audit_score_last,Auditor-General via Municipal Money (Stage 3),yes (financi
 muni_audit_score_3yr,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),44.4
 muni_npe_turnout_last,"IEC provincial-election turnout reports (Stage 2, cell 2.8)",yes,3.0
 muni_npe_years_before,"IEC provincial-election turnout reports (Stage 2, cell 2.8)",yes,3.0
+muni_npe_change_pp,"IEC provincial-election turnout reports (Stage 2, cell 2.8)",yes,23.6
 c22_internet_any_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
 c22_internet_at_home_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
 c22_computer_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
@@ -29,3 +30,8 @@ c22_urban_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0
 c22_traditional_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
 c22_farms_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
 c22_mean_household_size,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_matric_or_higher_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_higher_education_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_no_schooling_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_youth_matric_or_higher_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
+c22_youth_share_of_adults_pct,Census 2022 (Stage 3),yes for 2026; later snapshot for 2006-2021,0.0
