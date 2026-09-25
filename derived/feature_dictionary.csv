@@ -27,6 +27,8 @@ vd_venue_traditional,"IEC voting-station name (keyword rules, cell 4.9)",yes (st
 vd_venue_church,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
 vd_venue_school,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
 vd_venue_hall,"IEC voting-station name (keyword rules, cell 4.9)",yes (station list published before the election; 2026 uses the 2021 list),new feature (tested in Stage 5),19.8
+vd_npe_rel,IEC provincial-election district results (cell 2.9),yes,new feature (tested in Stage 5),7.6
+vd_npe_minus_local,IEC provincial-election district results (cell 2.9),yes,new feature (tested in Stage 5),13.4
 years_since_previous,"IEC results, earlier elections (Stage 2)",yes,first version only,0.0
 muni_audit_score_last,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),municipal context (tested),44.4
 muni_audit_score_3yr,Auditor-General via Municipal Money (Stage 3),yes (financial years up to the year before the election),municipal context (tested),44.4

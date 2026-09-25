@@ -26,6 +26,109 @@
     "vd_venue_hall",
     "muni_roll_growth_rel"
   ],
+  "simulation": {
+    "n_simulations": 10000,
+    "low_turnout_line_pct": 25,
+    "record_low_pct": 42.83095540999464,
+    "province_spread_main_pp": 4.899,
+    "province_spread_cautious_pp": 7.597,
+    "main": {
+      "turnout_median_pct": 39.8961862024578,
+      "turnout_80pct": [
+        33.42088155471239,
+        46.133622232361944
+      ],
+      "turnout_90pct": [
+        31.764096081578725,
+        47.83763373655463
+      ],
+      "p_below_record_low": 0.7248,
+      "p_below_40": 0.5091,
+      "p_below_35": 0.1697,
+      "ballots_median": 865627.5521277089,
+      "ballots_80pct": [
+        725132.8670081359,
+        1000961.2008654048
+      ],
+      "p_fewer_ballots_than_2021": 0.3195,
+      "non_voters_median": 1304072.447872291,
+      "districts_below_25_median": 77.0,
+      "districts_below_25_80pct": [
+        26.0,
+        257.0
+      ]
+    },
+    "cautious": {
+      "turnout_median_pct": 39.89975699352182,
+      "turnout_80pct": [
+        30.024764062918187,
+        49.66156543113556
+      ],
+      "turnout_90pct": [
+        27.328354532286706,
+        52.395211134816066
+      ],
+      "p_below_record_low": 0.6476,
+      "p_below_40": 0.5047,
+      "p_below_35": 0.26,
+      "ballots_median": 865705.0274198109,
+      "ballots_80pct": [
+        651447.3060732288,
+        1077506.9846106514
+      ],
+      "p_fewer_ballots_than_2021": 0.3711,
+      "non_voters_median": 1303994.9725801891,
+      "districts_below_25_median": 77.0,
+      "districts_below_25_80pct": [
+        14.0,
+        456.0
+      ]
+    },
+    "districts_more_likely_than_not_below_25": 41,
+    "backtest": [
+      {
+        "test_year": 2016,
+        "province_actual": 56.411836916741,
+        "province_80pct_range": "37.2-57.8",
+        "province_inside_80pct": true,
+        "municipalities_inside_80pct": 0.8823529411764706,
+        "districts_inside_80pct": 0.8147935779816514,
+        "brier_low_turnout": 0.007814987564506881,
+        "brier_base_rate_rule": 0.007992810853227793,
+        "ranking_auc_low_turnout": 0.9599298100743187,
+        "districts_below_25_actual": 14,
+        "districts_below_25_80pct_range": "4-140"
+      },
+      {
+        "test_year": 2021,
+        "province_actual": 42.83095540999464,
+        "province_80pct_range": "34.7-52.4",
+        "province_inside_80pct": true,
+        "municipalities_inside_80pct": 1.0,
+        "districts_inside_80pct": 0.9243697478991597,
+        "brier_low_turnout": 0.01863674355742297,
+        "brier_base_rate_rule": 0.026955186097133464,
+        "ranking_auc_low_turnout": 0.9644032728298693,
+        "districts_below_25_actual": 49,
+        "districts_below_25_80pct_range": "10-219"
+      }
+    ],
+    "calibration_step_used": true,
+    "calibration_check": [
+      {
+        "learned_on": 2016,
+        "tested_on": 2021,
+        "brier_raw": 0.01864,
+        "brier_calibrated": 0.0169
+      },
+      {
+        "learned_on": 2021,
+        "tested_on": 2016,
+        "brier_raw": 0.00781,
+        "brier_calibrated": 0.00672
+      }
+    ]
+  },
   "kept_feature_groups": [
     "Swing sensitivity",
     "Station venue",
@@ -144,6 +247,14 @@
     "low_registration": 0.2,
     "weak_audit": 0.2
   },
+  "headline": {
+    "registered_2021": 1902220,
+    "ballots_2021": 814739,
+    "registered_2026": 2169700,
+    "ballots_2026": 860069,
+    "ballots_2026_low": 738091,
+    "ballots_2026_high": 963322
+  },
   "profiles_k": 2,
-  "created": "2026-09-24T21:56:40+00:00"
+  "created": "2026-09-25T02:25:42+00:00"
 }

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-label="Abstract turnout mark">
+  <path d="M10 18c8-10 25-13 37-4 10 8 11 23 2 34-7 9-22 11-33 4" stroke="#2a78d6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M8 32h31" stroke="#2a78d6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M25 32l7 8" stroke="#2a78d6" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="49" cy="13" r="3" fill="#eb6834"/>
+</svg>

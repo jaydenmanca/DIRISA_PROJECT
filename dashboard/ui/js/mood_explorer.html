@@ -1,0 +1,48 @@
+<div class="mx">
+  <div class="mx-top">
+    <div class="mx-control">
+      <div class="mx-eyebrow">Step 1 · Choose the national mood</div>
+      <div class="mx-level"><span id="mx-level">39.5</span><span class="pct">%</span></div>
+      <div class="mx-sub">Mpumalanga turnout on 4 November 2026 · the uncertain part of the forecast</div>
+      <div class="mx-chance" id="mx-chance"></div>
+      <div class="mx-range-wrap">
+        <input id="mx-range" type="range" aria-label="Mpumalanga turnout in 2026 (percent)">
+        <div class="mx-marks"></div>
+      </div>
+    </div>
+    <div class="mx-kpis">
+      <div class="mx-kpi hot"><div class="k-label">Voting districts below <span class="thr-now">25</span>%</div>
+        <div class="k-value" id="mx-n">0</div><div class="k-ctx">of 1,785 districts</div></div>
+      <div class="mx-kpi"><div class="k-label">Registered voters in them</div>
+        <div class="k-value" id="mx-voters">0</div><div class="k-ctx">estimated 2026 roll</div></div>
+      <div class="mx-kpi"><div class="k-label">Expected ballots on 4 Nov</div>
+        <div class="k-value" id="mx-ballots">0</div><div class="k-ctx" id="mx-ballots-ctx"></div></div>
+    </div>
+  </div>
+  <p class="mx-sentence" id="mx-sentence"></p>
+  <div class="mx-body">
+    <div class="mx-mapwrap">
+      <div class="mx-toggle" role="group" aria-label="Colour the map by">
+        <button data-mode="risk" class="on">Below the line</button>
+        <button data-mode="chance">Chance &lt; 2021</button>
+        <button data-mode="rel">vs province</button>
+      </div>
+      <svg id="mx-map" role="img" aria-label="Map of Mpumalanga's 17 municipalities"></svg>
+      <div class="mx-legend-map"></div>
+    </div>
+    <div class="mx-fieldwrap">
+      <div class="mx-fieldhead">
+        <span class="kd blue"></span><b>1 dot = 1 voting district</b> (1,785)
+        <span class="kd red"></span><b>Red</b> = very low turnout (left of the red line)
+        <span class="kd big"></span>Bigger = more voters
+        <span class="hint">Hover a municipality to isolate · click to open</span></div>
+      <svg id="mx-field" role="img" aria-label="Predicted turnout of every voting district, by municipality"></svg>
+      <div class="mx-thr-row">
+        <label for="mx-thr">Low-turnout line: <b><span id="mx-thr-val">25</span>%</b></label>
+        <input id="mx-thr" type="range" aria-label="Low-turnout threshold (percent)">
+        <span class="mx-note">Drag the line or the slider · fragile districts move more</span>
+      </div>
+    </div>
+  </div>
+  <div class="mx-tip" role="tooltip"></div>
+</div>

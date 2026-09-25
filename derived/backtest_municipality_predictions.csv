@@ -1,0 +1,154 @@
+municipality_code_2021,predicted,actual,test_year,approach
+MP301,55.162,58.29,2011,Same as last election
+MP302,51.525,56.992,2011,Same as last election
+MP303,55.654,59.428,2011,Same as last election
+MP304,54.284,60.99,2011,Same as last election
+MP305,52.003,59.93,2011,Same as last election
+MP306,55.482,61.779,2011,Same as last election
+MP307,44.321,54.874,2011,Same as last election
+MP311,45.025,56.782,2011,Same as last election
+MP312,44.369,53.676,2011,Same as last election
+MP313,48.816,55.133,2011,Same as last election
+MP314,49.128,59.988,2011,Same as last election
+MP315,44.934,55.845,2011,Same as last election
+MP316,45.086,53.144,2011,Same as last election
+MP321,47.25,53.599,2011,Same as last election
+MP324,53.393,57.927,2011,Same as last election
+MP325,46.417,52.17,2011,Same as last election
+MP326,48.839,57.556,2011,Same as last election
+MP301,56.316,58.29,2011,One-step model (first version)
+MP302,49.593,56.992,2011,One-step model (first version)
+MP303,53.196,59.428,2011,One-step model (first version)
+MP304,51.542,60.99,2011,One-step model (first version)
+MP305,47.023,59.93,2011,One-step model (first version)
+MP306,54.328,61.779,2011,One-step model (first version)
+MP307,42.321,54.874,2011,One-step model (first version)
+MP311,44.813,56.782,2011,One-step model (first version)
+MP312,43.33,53.676,2011,One-step model (first version)
+MP313,44.716,55.133,2011,One-step model (first version)
+MP314,52.661,59.988,2011,One-step model (first version)
+MP315,46.013,55.845,2011,One-step model (first version)
+MP316,46.566,53.144,2011,One-step model (first version)
+MP321,43.62,53.599,2011,One-step model (first version)
+MP324,53.278,57.927,2011,One-step model (first version)
+MP325,48.557,52.17,2011,One-step model (first version)
+MP326,47.017,57.556,2011,One-step model (first version)
+MP301,51.481,58.29,2011,Two-step forecast
+MP302,46.676,56.992,2011,Two-step forecast
+MP303,51.066,59.428,2011,Two-step forecast
+MP304,50.209,60.99,2011,Two-step forecast
+MP305,47.055,59.93,2011,Two-step forecast
+MP306,51.819,61.779,2011,Two-step forecast
+MP307,43.487,54.874,2011,Two-step forecast
+MP311,44.212,56.782,2011,Two-step forecast
+MP312,43.796,53.676,2011,Two-step forecast
+MP313,45.303,55.133,2011,Two-step forecast
+MP314,48.07,59.988,2011,Two-step forecast
+MP315,45.333,55.845,2011,Two-step forecast
+MP316,44.82,53.144,2011,Two-step forecast
+MP321,44.826,53.599,2011,Two-step forecast
+MP324,51.374,57.927,2011,Two-step forecast
+MP325,45.773,52.17,2011,Two-step forecast
+MP326,46.092,57.556,2011,Two-step forecast
+MP301,60.104,59.572,2016,Same as last election
+MP302,59.064,57.608,2016,Same as last election
+MP303,60.594,57.35,2016,Same as last election
+MP304,61.741,59.339,2016,Same as last election
+MP305,61.249,57.492,2016,Same as last election
+MP306,64.442,60.048,2016,Same as last election
+MP307,56.698,53.888,2016,Same as last election
+MP311,58.386,55.421,2016,Same as last election
+MP312,55.818,51.806,2016,Same as last election
+MP313,56.808,53.009,2016,Same as last election
+MP314,61.02,56.688,2016,Same as last election
+MP315,57.636,55.231,2016,Same as last election
+MP316,53.613,55.031,2016,Same as last election
+MP321,55.626,53.85,2016,Same as last election
+MP324,58.811,61.121,2016,Same as last election
+MP325,53.678,53.875,2016,Same as last election
+MP326,58.892,60.439,2016,Same as last election
+MP301,59.873,59.572,2016,One-step model (first version)
+MP302,57.593,57.608,2016,One-step model (first version)
+MP303,58.197,57.35,2016,One-step model (first version)
+MP304,59.675,59.339,2016,One-step model (first version)
+MP305,56.661,57.492,2016,One-step model (first version)
+MP306,59.309,60.048,2016,One-step model (first version)
+MP307,54.809,53.888,2016,One-step model (first version)
+MP311,57.341,55.421,2016,One-step model (first version)
+MP312,54.435,51.806,2016,One-step model (first version)
+MP313,55.506,53.009,2016,One-step model (first version)
+MP314,59.359,56.688,2016,One-step model (first version)
+MP315,56.959,55.231,2016,One-step model (first version)
+MP316,56.258,55.031,2016,One-step model (first version)
+MP321,54.693,53.85,2016,One-step model (first version)
+MP324,57.932,61.121,2016,One-step model (first version)
+MP325,57.039,53.875,2016,One-step model (first version)
+MP326,57.551,60.439,2016,One-step model (first version)
+MP301,49.704,59.572,2016,Two-step forecast
+MP302,49.176,57.608,2016,Two-step forecast
+MP303,49.406,57.35,2016,Two-step forecast
+MP304,50.415,59.339,2016,Two-step forecast
+MP305,49.465,57.492,2016,Two-step forecast
+MP306,51.668,60.048,2016,Two-step forecast
+MP307,46.061,53.888,2016,Two-step forecast
+MP311,48.433,55.421,2016,Two-step forecast
+MP312,45.894,51.806,2016,Two-step forecast
+MP313,47.229,53.009,2016,Two-step forecast
+MP314,50.69,56.688,2016,Two-step forecast
+MP315,47.777,55.231,2016,Two-step forecast
+MP316,46.448,55.031,2016,Two-step forecast
+MP321,46.561,53.85,2016,Two-step forecast
+MP324,48.769,61.121,2016,Two-step forecast
+MP325,46.141,53.875,2016,Two-step forecast
+MP326,48.74,60.439,2016,Two-step forecast
+MP301,60.113,43.754,2021,Same as last election
+MP302,58.131,40.951,2021,Same as last election
+MP303,57.525,43.989,2021,Same as last election
+MP304,59.859,45.235,2021,Same as last election
+MP305,57.576,46.109,2021,Same as last election
+MP306,60.655,46.009,2021,Same as last election
+MP307,54.513,40.965,2021,Same as last election
+MP311,55.93,52.159,2021,Same as last election
+MP312,52.587,39.618,2021,Same as last election
+MP313,54.11,44.527,2021,Same as last election
+MP314,57.008,47.784,2021,Same as last election
+MP315,55.694,40.862,2021,Same as last election
+MP316,55.284,43.12,2021,Same as last election
+MP321,54.205,43.582,2021,Same as last election
+MP324,61.507,45.38,2021,Same as last election
+MP325,54.27,43.422,2021,Same as last election
+MP326,61.185,41.27,2021,Same as last election
+MP301,59.442,43.754,2021,One-step model (first version)
+MP302,55.193,40.951,2021,One-step model (first version)
+MP303,57.11,43.989,2021,One-step model (first version)
+MP304,58.469,45.235,2021,One-step model (first version)
+MP305,55.716,46.109,2021,One-step model (first version)
+MP306,58.595,46.009,2021,One-step model (first version)
+MP307,52.343,40.965,2021,One-step model (first version)
+MP311,54.217,52.159,2021,One-step model (first version)
+MP312,51.148,39.618,2021,One-step model (first version)
+MP313,52.012,44.527,2021,One-step model (first version)
+MP314,54.315,47.784,2021,One-step model (first version)
+MP315,55.671,40.862,2021,One-step model (first version)
+MP316,55.679,43.12,2021,One-step model (first version)
+MP321,53.79,43.582,2021,One-step model (first version)
+MP324,60.225,45.38,2021,One-step model (first version)
+MP325,56.649,43.422,2021,One-step model (first version)
+MP326,57.323,41.27,2021,One-step model (first version)
+MP301,45.733,43.754,2021,Two-step forecast
+MP302,44.391,40.951,2021,Two-step forecast
+MP303,44.355,43.989,2021,Two-step forecast
+MP304,45.041,45.235,2021,Two-step forecast
+MP305,44.163,46.109,2021,Two-step forecast
+MP306,46.046,46.009,2021,Two-step forecast
+MP307,42.758,40.965,2021,Two-step forecast
+MP311,43.59,52.159,2021,Two-step forecast
+MP312,42.584,39.618,2021,Two-step forecast
+MP313,42.312,44.527,2021,Two-step forecast
+MP314,44.485,47.784,2021,Two-step forecast
+MP315,42.883,40.862,2021,Two-step forecast
+MP316,42.108,43.12,2021,Two-step forecast
+MP321,42.288,43.582,2021,Two-step forecast
+MP324,46.77,45.38,2021,Two-step forecast
+MP325,41.849,43.422,2021,Two-step forecast
+MP326,46.351,41.27,2021,Two-step forecast
