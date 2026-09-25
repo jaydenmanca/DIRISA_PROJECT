@@ -54,7 +54,7 @@ export default function (component) {
   const hx = (v) => left + ((v - xMin) / (xMax - xMin)) * (HW - left - right);
   const step = (HW - left - right) / ((xMax - xMin) / D.binWidth);
   const maxN = Math.max(...D.bins.map((b) => b.n));
-  const hgap = Math.min(step * 0.78, (base - 44) / maxN);            // tallest bin stays below the labels
+  const hgap = Math.min(step * 0.78, (base - 62) / maxN);            // tallest bin stays below the labels
   const hr = Math.max(1.4, Math.min(3.2, hgap / 2.15));
   const hdots = [];
   D.bins.forEach((b, bi) => {
@@ -70,11 +70,11 @@ export default function (component) {
     const lab = el('text', { x: hx(t), y: base + 20, class: 'tick' }, hist); lab.textContent = t + '%';
   }
   const rx = hx(D.recordLow);
-  el('line', { x1: rx, x2: rx, y1: 18, y2: base + 1, class: 'record' }, hist);
-  const rl = el('text', { x: rx + 6, y: 30, class: 'recordlab' }, hist); rl.textContent = `2021 record low ${D.recordLow.toFixed(1)}%`;
+  el('line', { x1: rx, x2: rx, y1: 34, y2: base + 1, class: 'record' }, hist);
+  const rl = el('text', { x: rx + 6, y: 46, class: 'recordlab' }, hist); rl.textContent = `2021 record low ${D.recordLow.toFixed(1)}%`;
   const hh = el('text', { x: 10, y: 14, class: 'histhead' }, hist);
   hh.textContent = 'Each dot = 10 simulated election days, placed at the turnout it produced';
-  const rl2 = el('text', { x: rx - 6, y: 30, class: 'recordlab left' }, hist); rl2.textContent = '← new record low';
+  const rl2 = el('text', { x: rx - 6, y: 46, class: 'recordlab left' }, hist); rl2.textContent = '← new record low';
 
   const steps = [
     { key: 'roll', eyebrow: 'Registered for 4 November 2026', big: fmt(D.reg2026), unit: 'registered voters, a record',

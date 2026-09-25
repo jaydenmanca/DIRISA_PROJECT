@@ -429,4 +429,10 @@ def method(d):
                '[Census 2022](https://isibaloweb.statssa.gov.za/pages/surveys/pss/censuses/2022/census2022.php) · '
                '[Municipal Money](https://municipaldata.treasury.gov.za) (24 Sep 2026) · '
                '[geoBoundaries](https://www.geoboundaries.org) (CC BY 3.0 IGO)')
-    st.info('QR code: added once the dashboard has a public link.')
+    qr = base64.b64encode((ASSETS / 'qr-dashboard.svg').read_bytes()).decode('ascii')
+    st.markdown('<div class="key" style="display:flex;align-items:center;gap:18px;max-width:520px">'
+                f'<img src="data:image/svg+xml;base64,{qr}" alt="QR code for the live dashboard" width="120" height="120">'
+                '<div><div class="key-title">Open this dashboard</div>'
+                '<a href="https://dirisaproject.streamlit.app/">dirisaproject.streamlit.app</a>'
+                '<div class="k-row" style="margin-top:6px"><span>Scan with a phone camera</span></div></div></div>',
+                unsafe_allow_html=True)

@@ -1,6 +1,8 @@
 # DIRISA SDC 2026: Electoral participation in Mpumalanga
 
-Team submission for the **DIRISA Student Datathon Challenge 2026, Teams Qualification**. The theme is voter registration, participation and representation ahead of the **4 November 2026 Local Government Elections**.
+Team submission for the **DIRISA Student Datathon Challenge 2026, Teams Qualification**.
+
+**Live dashboard: https://dirisaproject.streamlit.app/** (QR code: `derived/figures/qr_dashboard.png`) The theme is voter registration, participation and representation ahead of the **4 November 2026 Local Government Elections**.
 
 ## Problem statement
 
