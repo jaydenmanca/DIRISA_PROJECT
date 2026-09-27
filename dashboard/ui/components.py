@@ -60,7 +60,7 @@ def footer():
         '<div class="site-footer">Sources: IEC election results and voter registration · '
         'Stats SA Census 2022 · Auditor-General via National Treasury Municipal Money · '
         'Municipal Demarcation Board boundaries via geoBoundaries (CC BY 3.0 IGO).<br>'
-        'Team: {TEAM NAME} · Forecasts are scenarios, not election results. '
+        'Team: UMP DATA DIVERS · Forecasts are scenarios, not election results. '
         '<a href="?tab=method">How it works</a></div>',
         unsafe_allow_html=True)
 
